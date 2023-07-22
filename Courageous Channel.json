@@ -1568,7 +1568,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 4.274424404047993,
+        "zoomFactor": 0.6244537826600168,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1729,21 +1729,6 @@
           "x": -3269,
           "y": 284,
           "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "SunIcon",
-          "persistentUuid": "93bff078-b973-4266-bb36-65d9fb47b664",
-          "width": 0,
-          "x": 834,
-          "y": 270,
-          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
