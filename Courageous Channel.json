@@ -1497,6 +1497,24 @@
         "name": "Fences - Copy.png4",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image144.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image144.png\"}",
+        "name": "New image144",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image145.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Piskel\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":0,\\\"height\\\":100,\\\"width\\\":100,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Background\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":2,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAABkCAYAAADDhn8LAAAAAXNSR0IArs4c6QAAAsdJREFUeF7t1dENABAUBEHaUZr+/2ljkrcqwGRze3WoH7jnPOpCwy+zh7+fe36BWCQFYnmsArFACsTyKBDMo0AwkBbEAikQy6MFwTwKBANpQSyQArE8WhDMo0AwkBbEAikQy6MFwTwKBANpQSyQArE8WhDMo0AwkBbEAikQy6MFwTwKBANpQSyQArE8WhDMo0AwkBbEAikQy6MFwTwKBANpQSyQArE8WhDMo0AwkBbEAikQy6MFwTwKBANpQSyQArE8WhDMo0AwkBbEAikQy6MFwTwKBANpQSyQArE8WhDMo0AwkBbEAikQy6MFwTwKBANpQSyQArE8WhDMo0AwkBbEAikQy6MFwTwKBANpQSyQArE8WhDMo0AwkBbEAikQy6MFwTwKBANpQSyQArE8WhDMo0AwkBbEAikQy6MFwTwKBANpQSyQArE8WhDMo0AwkBbEAikQy6MFwTwKBANpQSyQArE8WhDMo0AwkBbEAikQy6MFwTwKBANpQSyQArE8WhDMo0AwkBbEAikQy6MFwTwKBANpQSyQArE8WhDMo0AwkBbEAikQy6MFwTwKBANpQSyQArE8WhDMo0AwkBbEAikQy6MFwTwKBANpQSyQArE8WhDMo0AwkBbEAikQy6MFwTwKBANpQSyQArE8WhDMo0AwkBbEAikQy6MFwTwKBANpQSyQArE8WhDMo0AwkBbEAikQy6MFwTwKBANpQSyQArE8WhDMo0AwkBbEAikQy6MFwTwKBANpQSyQArE8WhDMo0AwkBbEAikQy6MFwTwKBANpQSyQArE8WhDMo0AwkBbEAikQy6MFwTwKBANpQSyQArE8WhDMo0AwkBbEAikQy6MFwTwKBANpQSyQArE8WhDMo0AwkBbEAikQy6MFwTwKBANpQSyQArE8WhDMo0AwkBbEAikQy6MFwTwKBANpQSyQArE8WhDM4wMUsq45PcE9lwAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":2,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAABkCAYAAADDhn8LAAAAAXNSR0IArs4c6QAAAqdJREFUeF7t1bEVg0AMBUGuKfpvx1XYDYCDTf+QK9Do9nE+9/29fAQIPAocgXgZBN4FBOJ1EPgjIBDPg4BAvAECTcAfpLmZGhEQyMihrdkEBNLcTI0ICGTk0NZsAgJpbqZGBAQycmhrNgGBNDdTIwICGTm0NZuAQJqbqREBgYwc2ppNQCDNzdSIgEBGDm3NJiCQ5mZqREAgI4e2ZhMQSHMzNSIgkJFDW7MJCKS5mRoREMjIoa3ZBATS3EyNCAhk5NDWbAICaW6mRgQEMnJoazYBgTQ3UyMCAhk5tDWbgECam6kRAYGMHNqaTUAgzc3UiIBARg5tzSYgkOZmakRAICOHtmYTEEhzMzUiIJCRQ1uzCQikuZkaERDIyKGt2QQE0txMjQgIZOTQ1mwCAmlupkYEBDJyaGs2AYE0N1MjAgIZObQ1m4BAmpupEQGBjBzamk1AIM3N1IiAQEYObc0mIJDmZmpEQCAjh7ZmExBIczM1IiCQkUNbswkIpLmZGhEQyMihrdkEBNLcTI0ICGTk0NZsAgJpbqZGBAQycmhrNgGBNDdTIwICGTm0NZuAQJqbqREBgYwc2ppNQCDNzdSIgEBGDm3NJiCQ5mZqREAgI4e2ZhMQSHMzNSIgkJFDW7MJCKS5mRoREMjIoa3ZBATS3EyNCAhk5NDWbAICaW6mRgQEMnJoazYBgTQ3UyMCAhk5tDWbgECam6kRAYGMHNqaTUAgzc3UiIBARg5tzSYgkOZmakRAICOHtmYTEEhzMzUiIJCRQ1uzCQikuZkaERDIyKGt2QQE0txMjQgIZOTQ1mwCAmlupkYEBDJyaGs2AYE0N1MjAgIZObQ1m4BAmpupEQGBjBzamk1AIM3N1IiAQEYObc0mIJDmZmpEQCAjh7ZmExBIczM1IvADtHPpNY4CkkEAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"New image144\",null],\"name\":\"New image144\"}}",
+        "name": "New image145",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1532,7 +1550,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.2952916551236011,
+        "zoomFactor": 0.4481978045410478,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1571,15 +1589,96 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 63,
           "layer": "",
           "name": "Fence",
-          "persistentUuid": "29be4feb-8c21-4bd4-926e-819a04509959",
-          "width": 0,
-          "x": 710,
-          "y": 363,
-          "zOrder": 4,
+          "persistentUuid": "37913832-b43c-45df-8966-26f00396b93a",
+          "width": 4483,
+          "x": -1574,
+          "y": 2001,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 44,
+          "layer": "Collision",
+          "name": "Collision",
+          "persistentUuid": "94bbe4ef-f6c6-4442-94c9-f4ef8c0e943a",
+          "width": 4480,
+          "x": -1572,
+          "y": 2014,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 0,
+          "height": 44,
+          "layer": "Collision",
+          "name": "Collision",
+          "persistentUuid": "d6ee8367-12b2-4c0b-8e69-9b007a67ab54",
+          "width": 4480,
+          "x": 666,
+          "y": -208,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 0,
+          "height": 44,
+          "layer": "Collision",
+          "name": "Collision",
+          "persistentUuid": "ac484629-0a1a-4f43-9d99-1870556e5303",
+          "width": 4480,
+          "x": -3806,
+          "y": -204,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 44,
+          "layer": "Collision",
+          "name": "Collision",
+          "persistentUuid": "9c8bd2cf-a4e6-40a3-9ac3-a149feaa749b",
+          "width": 4534,
+          "x": -1583,
+          "y": -1443,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 0,
+          "height": 63,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "a904db5b-35f7-436a-a561-7711f089343e",
+          "width": 3401,
+          "x": 1197,
+          "y": 274,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1591,10 +1690,26 @@
           "height": 63,
           "layer": "",
           "name": "Fence",
-          "persistentUuid": "37913832-b43c-45df-8966-26f00396b93a",
+          "persistentUuid": "61b2467e-2e03-40fd-9b16-a28987f185e2",
           "width": 4483,
-          "x": -1573,
-          "y": 2000,
+          "x": -1574,
+          "y": -1442,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 0,
+          "height": 63,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "00f5bb58-c559-48b4-a948-ef497b0ed1b3",
+          "width": 3414,
+          "x": -3269,
+          "y": 284,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -1995,6 +2110,18 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Collision",
+          "tags": "",
+          "texture": "New image144",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -2151,20 +2278,42 @@
                 "",
                 ""
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
-                "value": "RotateTowardPosition"
+                "value": "CollisionNP"
               },
               "parameters": [
                 "VineBall",
-                "CursorX()",
-                "CursorY()",
-                "VineBall.Variable(turnSpeed)",
+                "Collision",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "VineBall",
+                "Collision",
                 ""
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -2208,6 +2357,22 @@
           "name": "UI",
           "renderingType": "",
           "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Collision",
+          "renderingType": "",
+          "visibility": false,
           "cameras": [],
           "effects": []
         }
