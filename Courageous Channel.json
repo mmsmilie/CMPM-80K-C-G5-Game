@@ -1443,6 +1443,60 @@
         "name": "NewSprite5",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fences - Copy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fences - Copy.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fences - Copy.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Fences - Copy.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fences - Copy.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Fences - Copy.png3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fences - Copy.png4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Fences - Copy.png4",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1478,7 +1532,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.0615714305219994,
+        "zoomFactor": 1.2952916551236011,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1488,12 +1542,12 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 3585,
+          "height": 3506,
           "layer": "",
           "name": "Grass_Tile_Sheet",
           "persistentUuid": "4da6a340-e2bc-491b-95bc-b172bc6e5701",
-          "width": 4537,
-          "x": -1629,
+          "width": 4482,
+          "x": -1574,
           "y": -1442,
           "zOrder": 0,
           "numberProperties": [],
@@ -1511,6 +1565,37 @@
           "x": 550,
           "y": 9,
           "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "29be4feb-8c21-4bd4-926e-819a04509959",
+          "width": 0,
+          "x": 710,
+          "y": 363,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 63,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "37913832-b43c-45df-8966-26f00396b93a",
+          "width": 4483,
+          "x": -1573,
+          "y": 2000,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1849,6 +1934,67 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "VineBall",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "turnSpeed",
+              "type": "number",
+              "value": 10
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Fence",
+          "tags": "",
+          "texture": "Fences - Copy.png4",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -1883,7 +2029,7 @@
               },
               "parameters": [
                 "",
-                "VineHead",
+                "VineBall",
                 "0",
                 "0",
                 ""
@@ -1896,7 +2042,7 @@
           "inlineCode": [
             "//runtimeScene.setBackgroundColor(100,100,240);",
             "if(runtimeScene.getTimeManager().isFirstFrame()) {",
-            "    for(let i=0;i<5;i++){runtimeScene.createObject(\"VineBody\")}",
+            "    for(let i=0;i<5;i++){runtimeScene.createObject(\"VineBall\")}",
             "}",
             "",
             "const keyManager = runtimeScene.getGame().getInputManager(), S_KEY = 83, W_KEY = 87, A_KEY=65,D_KEY=68,SPACE_BAR=32",
@@ -1958,7 +2104,7 @@
             "// }",
             ""
           ],
-          "parameterObjects": "VineBody",
+          "parameterObjects": "VineBall",
           "useStrict": true,
           "eventsSheetExpanded": true
         },
@@ -2000,9 +2146,21 @@
               },
               "parameters": [
                 "",
-                "Circle",
+                "VineBall",
                 "",
                 "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "RotateTowardPosition"
+              },
+              "parameters": [
+                "VineBall",
+                "CursorX()",
+                "CursorY()",
+                "VineBall.Variable(turnSpeed)",
                 ""
               ]
             }
