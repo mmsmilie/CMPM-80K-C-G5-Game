@@ -113,6 +113,32 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fence.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fence.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Background Objects/Retina/5219e483a052b6d9dc758e11d80832127198ba729db14224f9534a15d9a3c523_fence.png",
+          "name": "fence.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Emote Drop.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Emote Drop.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Pixel art/Emote/2aec52280948dab78c4b147054ed1a57915cf5c69d745c7de478a01e5a1b89b0_Emote Drop.png",
+          "name": "Emote Drop.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -154,7 +180,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3925161175488232,
+        "zoomFactor": 0.47893418845352626,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -187,6 +213,21 @@
           "x": 538,
           "y": 290,
           "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "name": "Fence",
+          "persistentUuid": "47aa07af-8fd1-4127-8336-3cf685a55136",
+          "width": 0,
+          "x": 997,
+          "y": 23,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -570,6 +611,133 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "assetStoreId": "b0fa8e7f548bb1f4edef1ed8d765f3d39219f7b7cfb3fa65c95b6e4479e9fd52",
+          "name": "Fence",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "fence.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 207,
+                            "y": 0
+                          },
+                          {
+                            "x": 207,
+                            "y": 155
+                          },
+                          {
+                            "x": 0,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "7f5ca3002579f1f52547bd3a2a300e0f4344177ce7be4059e91d65abf3b37c1a",
+          "name": "Water",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "spawnTime",
+              "type": "number",
+              "value": 15
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Emote Drop.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 2
+                          },
+                          {
+                            "x": 10,
+                            "y": 2
+                          },
+                          {
+                            "x": 10,
+                            "y": 10
+                          },
+                          {
+                            "x": 6,
+                            "y": 10
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -605,6 +773,14 @@
               "parameters": [
                 "",
                 "\"Counter\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "GameOverText"
               ]
             }
           ]
@@ -684,12 +860,12 @@
             "",
             "",
             "//Wait until the last segment exits some radius away from the spawn point, then create a new segment at the spawnpoint instead of using a timer",
-            "if(objects[objects.length-1].getX() > 50 || objects[objects.length-1].getX() > 80 ||objects[objects.length-1].getY() > 80){",
+            "if(objects[objects.length-1].getX() > 50 ||objects[objects.length-1].getY() > 80){",
             "    let newSegment = runtimeScene.createObject(\"Circle\")",
             "",
             "    //SPAWNPOINT/PIVOT coordinates",
-            "    // newSegment.setX(0)",
-            "    // newSegment.setY(0)",
+            "    newSegment.setX(0)",
+            "    newSegment.setY(0)",
             "}",
             "",
             "",
@@ -770,6 +946,109 @@
           "conditions": [
             {
               "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "mod(round(TimeFromStart()),Sun.Variable(spawnTime))",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Sun",
+                "RandomInRange(100+Circle.X(),1000+Circle.Y())",
+                "RandomInRange(Circle.X()+100,Circle.Y()+500)",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "mod(round(TimeFromStart()),Water.Variable(spawnTime))",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Water",
+                "RandomInRange(Circle.X()+100,600+Circle.Y())",
+                "RandomInRange(Circle.X()+100,600+Circle.Y())",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Circle",
+                "Water",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Water",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "GrowthTimer",
+                "growthTime",
+                "+",
+                "20"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "CompareTimer"
               },
               "parameters": [
@@ -777,6 +1056,16 @@
                 "\"Counter\"",
                 ">=",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "GrowthTimer.Variable(growthTime)",
+                ">",
+                "0"
               ]
             },
             {
@@ -824,41 +1113,6 @@
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::CompareNumbers"
-              },
-              "parameters": [
-                "mod(round(TimeFromStart()),Sun.Variable(spawnTime))",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Sun",
-                "RandomInRange(100,1000)",
-                "RandomInRange(100,1000)",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "CompareObjectTimer"
               },
               "parameters": [
@@ -894,6 +1148,25 @@
               "parameters": [
                 "PivotSegment",
                 "\"BoostTimer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "GrowthTimer",
+                "=",
+                "\"Growth Time: \" + ToString(GrowthTimer.Variable(growthTime)) + \"s\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "PivotSegment",
+                "\"TurnTimer\""
               ]
             }
           ]
@@ -938,12 +1211,162 @@
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Or"
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "PivotSegment",
+                "\"TurnTimer\"",
+                "<=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Circle",
+                "angularVelocity",
+                "=",
+                "150"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "PivotSegment",
+                "\"TurnTimer\"",
+                ">",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Circle",
+                "angularVelocity",
+                "=",
+                "100"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "GrowthTimer.Variable(growthTime)",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "GameOverText",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeLayerTimeScale"
+              },
+              "parameters": [
+                "",
+                "",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Circle",
+                "Fence",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Circle",
+                "Fence",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "GameOverText",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeLayerTimeScale"
+              },
+              "parameters": [
+                "",
+                "",
+                "0"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
