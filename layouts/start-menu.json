@@ -396,6 +396,18 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "CREDITS\n\nSound/Music\n\nSun Sound Effect: Plants vs. Zombies\nShort Circuit Sound Effect: https://www.youtube.com/watch?v=PxWARwcVuL0\nAbove Ground Music: 2PM by Lud and Schlatts Musical Emporium https://www.youtube.com/watch?v=0dW17XShyy4\nUnderground Music: Bass Meant Jazz from GDevelop\n"
     }
   ],
   "layers": [
