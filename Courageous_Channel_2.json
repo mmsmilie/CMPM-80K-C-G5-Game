@@ -1,0 +1,3954 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "4f5b8e14-c2eb-4032-b8a6-7b98dd5a3033",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Test for Snake",
+    "description": "",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Circle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Circle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Console Inputs/PS5/601b3f6392d26bb47dd8d3f244f0b6fd6e09ee5960ce448e21f093f089d45fd3_Circle.png",
+          "name": "Circle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Large Blue Hole_Unlocked.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Large Blue Hole_Unlocked.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Rolling Ball Pack/Hole/6f5d764133b9831feabd89a3525034a4ca5368269ddd58bf237040d68faf6f2c_Large Blue Hole_Unlocked.png",
+          "name": "Large Blue Hole_Unlocked.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sun.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sun.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Background Objects/Retina/46b2c086c8ade9b55450cbbd2944de792d3c3e5f6885519153ca2f7e17c5eae5_Sun.png",
+          "name": "Sun.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fence.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fence.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Background Objects/Retina/5219e483a052b6d9dc758e11d80832127198ba729db14224f9534a15d9a3c523_fence.png",
+          "name": "fence.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Emote Drop.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Emote Drop.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Pixel art/Emote/2aec52280948dab78c4b147054ed1a57915cf5c69d745c7de478a01e5a1b89b0_Emote Drop.png",
+          "name": "Emote Drop.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "VineMid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "VineMid.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "VineTop.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "VineTop.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image150.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\New image150.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sun2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Sun",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ElectricFenceMid_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ElectricFenceMid_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ElectricFenceMid_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ElectricFenceMid_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ElectricFenceMid_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ElectricFenceMid_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ElectricFenceCorner_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ElectricFenceCorner_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ElectricFenceCorner_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ElectricFenceCorner_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ElectricFenceCorner_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ElectricFenceCorner_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Water.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Water.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "PruneButton_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PruneButton_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "PruneButton_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PruneButton_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Kenney Pixel.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/VineTop.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "VineTop",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Grass_Brian.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grass_Brian.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Water.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Water",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sun3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Sun2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sun4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Sun3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Sound Files/WaterSound_Cut.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound Files\\WaterSound_Cut.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Sound Files/PvZSunSound.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound Files\\PvZSunSound.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Sound Files/PlantSound.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound Files\\PlantSound.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Sound Files/GrassSound.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound Files\\GrassSound.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Sound Files/2PM-PM-Music.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound Files\\2PM-PM-Music.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Sound Files/y2mate.com_-_Short_Circuit_Sound_Effect_HD.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound Files\\y2mate.com_-_Short_Circuit_Sound_Effect_HD.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Graveyard Tile Dirt Corner Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graveyard Tile Dirt Corner Left.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Worlds/Graveyard/f5e75ca5b4445d02bf3a5c7fcce11c4039f18a3090ed78de56a9aee10ea6fff5_Graveyard Tile Dirt Corner Left.png",
+          "name": "Graveyard Tile Dirt Corner Left.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Circle glass_Broken.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Circle glass_Broken.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Obstacle/Glass/f4d994ec20261657c2d89b74f0c19fafd0a1eea1451a9154648309ffbe3883f2_Circle glass_Broken.png",
+          "name": "Circle glass_Broken.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Circle glass_Damaged.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Circle glass_Damaged.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Obstacle/Glass/1af1dd861f02e319f64a5c03b86d39acf038a8fa1dc6d0a20b4c9825aea2f4b6_Circle glass_Damaged.png",
+          "name": "Circle glass_Damaged.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Circle glass_Perfect.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Circle glass_Perfect.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Obstacle/Glass/96e708c2812471edfa6d218a31879d3c510af6bf1573e0aa8b681634ff523789_Circle glass_Perfect.png",
+          "name": "Circle glass_Perfect.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Rock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rock.png",
+        "smoothed": false,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "isSegmentsColliding",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "hasStoppedColliding",
+      "type": "boolean",
+      "value": true
+    },
+    {
+      "folded": true,
+      "name": "pivotX",
+      "type": "number",
+      "value": 200
+    },
+    {
+      "folded": true,
+      "name": "pivotY",
+      "type": "number",
+      "value": 200
+    },
+    {
+      "folded": true,
+      "name": "isUnderground",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "undergroundSegmentX",
+      "type": "array",
+      "children": []
+    },
+    {
+      "folded": true,
+      "name": "undergroundSegmentY",
+      "type": "array",
+      "children": []
+    },
+    {
+      "folded": true,
+      "name": "shouldLoadUnderground",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "undergroundSegmentAngle",
+      "type": "array",
+      "children": []
+    },
+    {
+      "folded": true,
+      "name": "growthTime",
+      "type": "number",
+      "value": 20
+    }
+  ],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Main",
+      "name": "Main",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 96,
+        "gridHeight": 96,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.6897782140104525,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 43,
+          "layer": "UI",
+          "name": "GrowthTimer",
+          "persistentUuid": "add96179-787b-4f7f-977b-0f943a7f172e",
+          "width": 480,
+          "x": 400,
+          "y": 680,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "name": "GameOverText",
+          "persistentUuid": "ec91b6f8-f6de-42b3-a1c7-9cd5ed5c0d34",
+          "width": 0,
+          "x": 538,
+          "y": 290,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "name": "PruneButton",
+          "persistentUuid": "5c3c7143-a6d8-4d8a-84b7-dedf2dcd5ca7",
+          "width": 0,
+          "x": 173,
+          "y": 622,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Sun",
+          "persistentUuid": "b6ff97ab-9c3f-4f14-a885-f514223aef0b",
+          "width": 0,
+          "x": 882,
+          "y": 404,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Water",
+          "persistentUuid": "8934683d-55d1-4c65-b916-65a30d8f5ab5",
+          "width": 0,
+          "x": 892,
+          "y": 211,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "87e4fbb7-4751-41c9-bb1a-aca0070cdcb1",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "name": "BurrowHole",
+          "persistentUuid": "139f257b-65b9-428f-bd8c-658a0476c271",
+          "width": 0,
+          "x": 25,
+          "y": 620,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 144,
+          "layer": "UI",
+          "name": "ButtonMenu",
+          "persistentUuid": "ebea7d14-c317-47aa-88a0-07cc6332e341",
+          "width": 288,
+          "x": 0,
+          "y": 576,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "name": "BurrowText",
+          "persistentUuid": "3a1f0667-1f27-4653-8b7b-0d11387260d5",
+          "width": 0,
+          "x": 25,
+          "y": 590,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "name": "PruneText",
+          "persistentUuid": "b79f2221-b36c-4646-9e88-208a53d14542",
+          "width": 0,
+          "x": 170,
+          "y": 590,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "df21bab1-ffc3-4a58-aaa0-74e289d50f14",
+          "width": 0,
+          "x": 960,
+          "y": 0,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "8f13dcaa-5b79-4d7e-b029-4c8b98ee6673",
+          "width": 0,
+          "x": 1056,
+          "y": 0,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "4ef7c2c1-d2f1-4792-a323-5c70bb0ec44a",
+          "width": 0,
+          "x": 1152,
+          "y": 0,
+          "zOrder": 12,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "b2dfbcac-aa01-4a3c-b3bd-580b9e0ba425",
+          "width": 0,
+          "x": 1152,
+          "y": 96,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "ff81805b-cd3d-4000-8caf-f6711fccc85d",
+          "width": 0,
+          "x": 1152,
+          "y": 192,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "e13b370e-9fc8-48ab-9205-099f8ff15b79",
+          "width": 0,
+          "x": 1152,
+          "y": 288,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "7c04e778-fb2e-4491-bae3-84cdc1c528b8",
+          "width": 0,
+          "x": 1152,
+          "y": 384,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "7b7a4156-f650-4d41-a9b0-74e8dbc6a9ed",
+          "width": 0,
+          "x": 1152,
+          "y": 480,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "c46c40de-8b54-43b1-bc9c-25729aabef6d",
+          "width": 0,
+          "x": 768,
+          "y": 0,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "2450efc3-645f-4944-920f-626bd75d29c2",
+          "width": 0,
+          "x": 864,
+          "y": 0,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "3a86ef6d-964b-47d5-af97-58fa91431f14",
+          "width": 0,
+          "x": 672,
+          "y": 0,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "40b8e6af-4f56-4daf-b9cb-7d47c09d3243",
+          "width": 0,
+          "x": 576,
+          "y": 0,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "f937109d-4eca-46bf-aec8-e727a38ce39f",
+          "width": 0,
+          "x": 480,
+          "y": 0,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "1a048aa1-4752-4b51-aff3-54ea41cc16a7",
+          "width": 0,
+          "x": 384,
+          "y": 0,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "ae9db82c-bc48-4999-8d28-dc8c3358336a",
+          "width": 0,
+          "x": 288,
+          "y": 0,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "55e8a963-b942-467c-84ab-7f4ed91c09e3",
+          "width": 0,
+          "x": 192,
+          "y": 0,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "72ba2079-e6ea-47a5-8d5d-499f9c2b3871",
+          "width": 0,
+          "x": 96,
+          "y": 0,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "d301bc8b-91d7-499c-b648-a64bde921d7c",
+          "width": 0,
+          "x": 1152,
+          "y": 576,
+          "zOrder": 12,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "60dab940-2708-428d-a2d4-8f6947c98cbc",
+          "width": 0,
+          "x": 1056,
+          "y": 576,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "467d29be-8f58-49b9-8569-cc497362e693",
+          "width": 0,
+          "x": 960,
+          "y": 576,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "4919a398-6ede-4365-acdf-053a120c5db9",
+          "width": 0,
+          "x": 864,
+          "y": 576,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "17538adf-ba8f-4c75-8251-f518053b70e4",
+          "width": 0,
+          "x": 768,
+          "y": 576,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "8ba32205-145c-4449-85b4-df5e3f11e1d7",
+          "width": 0,
+          "x": 672,
+          "y": 576,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "0e7f5da1-afce-4331-bc90-5f69cbece7b5",
+          "width": 0,
+          "x": 576,
+          "y": 576,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "7acc7ead-0fa4-4f53-914b-4a881420ec04",
+          "width": 0,
+          "x": 480,
+          "y": 576,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "ecbbd4d3-3486-4b12-b5f0-9a3152328389",
+          "width": 0,
+          "x": 384,
+          "y": 576,
+          "zOrder": 11,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "aac44145-b7f1-4665-8b90-7078f3bcc408",
+          "width": 0,
+          "x": 288,
+          "y": 576,
+          "zOrder": 12,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 0,
+          "height": 96,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "ebc03d00-7cc2-4fbe-861e-08babf6a1946",
+          "width": 96,
+          "x": 288,
+          "y": 480,
+          "zOrder": 12,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "4a05e942-92d0-44c0-918d-6e25fa4e516d",
+          "width": 0,
+          "x": 192,
+          "y": 480,
+          "zOrder": 11,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "a64e83d5-9c9f-44a6-a32d-1010c377f2e6",
+          "width": 0,
+          "x": 96,
+          "y": 480,
+          "zOrder": 11,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "11558c10-5d07-4116-8c68-813583250b8f",
+          "width": 0,
+          "x": 0,
+          "y": 480,
+          "zOrder": 12,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "0a7065dd-7eab-43e7-8fd5-53631cddb20d",
+          "width": 0,
+          "x": 0,
+          "y": 384,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "88781eb2-48de-4269-8015-5407b30282f4",
+          "width": 0,
+          "x": 0,
+          "y": 288,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "1d49fdef-3859-4715-8eaa-3983608ed267",
+          "width": 0,
+          "x": 0,
+          "y": 192,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "85fefe9d-b378-420d-899f-57a33706c0bc",
+          "width": 0,
+          "x": 0,
+          "y": 96,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Fence",
+          "persistentUuid": "5735905b-4d1c-4dd0-a653-4b968f4508e8",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 12,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "3e979482abf4e4ae677e43b93350c58d51610a1351c4a464f3ad20ea1ceb5148",
+          "name": "Circle",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "polarForceMagnitude",
+              "type": "number",
+              "value": 90
+            },
+            {
+              "folded": true,
+              "name": "angularVelocity",
+              "type": "number",
+              "value": 100
+            },
+            {
+              "folded": true,
+              "name": "hasBurrowed",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "hasCollided",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Kinematic",
+              "bullet": false,
+              "fixedRotation": true,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 0,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "VineMid.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 24
+                          },
+                          {
+                            "x": 96,
+                            "y": 24
+                          },
+                          {
+                            "x": 96,
+                            "y": 66
+                          },
+                          {
+                            "x": 0,
+                            "y": 66
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "VineTop",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "VineTop",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 24
+                          },
+                          {
+                            "x": 96,
+                            "y": 24
+                          },
+                          {
+                            "x": 96,
+                            "y": 66
+                          },
+                          {
+                            "x": 0,
+                            "y": 66
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "3e979482abf4e4ae677e43b93350c58d51610a1351c4a464f3ad20ea1ceb5148",
+          "name": "PivotSegment",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Kinematic",
+              "bullet": false,
+              "fixedRotation": true,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 0,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "VineMid.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "db8784c99a3af8e5d991ea8b78bf106ba9682c9703f93d91f60666251ab57a37",
+          "name": "BurrowHole",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Unlocked",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\New image150.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "0ad80b38700a8082ef5c100c3975fb6747e59f0a5cc7396b4431234ed70a9bdb",
+          "name": "Sun",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "spawnTime",
+              "type": "number",
+              "value": 10
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Sun",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sun3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "GrowthTimer",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "growthTime",
+              "type": "number",
+              "value": 20
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "string": "Growth time: 0s",
+          "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "textAlignment": "center",
+          "characterSize": 48,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "GameOverText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "growthTime",
+              "type": "number",
+              "value": 20
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "string": "GAME OVER!",
+          "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "textAlignment": "center",
+          "characterSize": 64,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 255
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "b0fa8e7f548bb1f4edef1ed8d765f3d39219f7b7cfb3fa65c95b6e4479e9fd52",
+          "name": "Fence",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.15,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ElectricFenceMid_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 36
+                          },
+                          {
+                            "x": 96,
+                            "y": 36
+                          },
+                          {
+                            "x": 96,
+                            "y": 60
+                          },
+                          {
+                            "x": 0,
+                            "y": 60
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ElectricFenceMid_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 36
+                          },
+                          {
+                            "x": 96,
+                            "y": 36
+                          },
+                          {
+                            "x": 96,
+                            "y": 60
+                          },
+                          {
+                            "x": 0,
+                            "y": 60
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ElectricFenceMid_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 36
+                          },
+                          {
+                            "x": 96,
+                            "y": 36
+                          },
+                          {
+                            "x": 96,
+                            "y": 60
+                          },
+                          {
+                            "x": 0,
+                            "y": 60
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.15,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ElectricFenceCorner_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 36,
+                            "y": 36
+                          },
+                          {
+                            "x": 96,
+                            "y": 36
+                          },
+                          {
+                            "x": 96,
+                            "y": 96
+                          },
+                          {
+                            "x": 36,
+                            "y": 96
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ElectricFenceCorner_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 36,
+                            "y": 36
+                          },
+                          {
+                            "x": 96,
+                            "y": 36
+                          },
+                          {
+                            "x": 96,
+                            "y": 96
+                          },
+                          {
+                            "x": 36,
+                            "y": 96
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ElectricFenceCorner_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 36,
+                            "y": 36
+                          },
+                          {
+                            "x": 96,
+                            "y": 36
+                          },
+                          {
+                            "x": 96,
+                            "y": 96
+                          },
+                          {
+                            "x": 36,
+                            "y": 96
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "7f5ca3002579f1f52547bd3a2a300e0f4344177ce7be4059e91d65abf3b37c1a",
+          "name": "Water",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "spawnTime",
+              "type": "number",
+              "value": 10
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Water",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Water",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "PruneButton",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.5,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "PruneButton_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "PruneButton_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 96,
+          "name": "NewTiledSprite",
+          "tags": "",
+          "texture": "Grass_Brian.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 96,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "ButtonMenu",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "BurrowText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Burrow (A)",
+          "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "textAlignment": "center",
+          "characterSize": 36,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "PruneText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Prune (S)",
+          "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "textAlignment": "center",
+          "characterSize": 36,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "PivotSegment",
+                "200",
+                "200",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Circle",
+                "200",
+                "200",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Counter\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "GameOverText"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"SoundTimer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "Sound Files\\2PM-PM-Music.mp3",
+                "yes",
+                "5",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "//runtimeScene.setBackgroundColor(100,100,240);",
+            "",
+            "//let dt = runtimeScene.getElapsedTime()",
+            "",
+            "if(runtimeScene.getTimeManager().isFirstFrame()) {",
+            "    //for(let i=0;i<5;i++){runtimeScene.createObject(\"Circle\")}",
+            "}",
+            "",
+            "const keyManager = runtimeScene.getGame().getInputManager(), S_KEY = 83, W_KEY = 87, A_KEY=65,D_KEY=68,SPACE_BAR=32",
+            "const seg = objects[0]",
+            "",
+            "const lerp = (fromValue, toValue, dx) => gdjs.evtTools.common.lerp(fromValue,toValue,dx)",
+            "const clamp = (number, lower, upper) => gdjs.evtTools.common.clamp(number, lower, upper)",
+            "",
+            "",
+            "if(runtimeScene.sceneJustResumed()){",
+            "    seg.setX(runtimeScene.getGame().getVariables().get(\"pivotX\").getAsNumber())",
+            "    seg.setY(runtimeScene.getGame().getVariables().get(\"pivotY\").getAsNumber())",
+            "",
+            "}",
+            "",
+            "",
+            "runtimeScene.getGame().getVariables().get(\"isSegmentsColliding\").setBoolean(false) ",
+            "let objects1 = objects.filter(obj => obj.getVariables().get(\"hasBurrowed\").getAsBoolean() === false) //Only move the unburrowed segments",
+            "for(let i=1;i<objects1.length;i++){",
+            "   if(objects1[i].getDistanceToObject(objects1[i-1]) > 80 && !(objects1[i].getVariables().get(\"hasBurrowed\").getAsBoolean())){ ",
+            "        objects1[i].setX(lerp(objects1[i].getX(),objects1[i-1].getX(),0.05))",
+            "        objects1[i].setY(lerp(objects1[i].getY(),objects1[i-1].getY(),0.05))",
+            "        objects1[i].setAngle(lerp(objects1[i].getAngle(), objects1[i].getAngleToObject(objects1[i-1]),0.08))",
+            "",
+            "   } ",
+            "",
+            "   //Tangled handling: Check if head(seg) intersects with the other segments that aren't the first one behind the head",
+            "    ",
+            "   if(gdjs.RuntimeObject.collisionTest(seg, objects1[i]) && i!==1 && runtimeScene.getTimeManager().getTimeFromStart()>5000){ ",
+            "        runtimeScene.getGame().getVariables().get(\"isSegmentsColliding\").setBoolean(true) ",
+            "   } ",
+            "}",
+            "",
+            "//Handle getting tangled/collision",
+            "if(!runtimeScene.getGame().getVariables().get(\"isSegmentsColliding\").getAsBoolean()){",
+            "     runtimeScene.getGame().getVariables().get(\"hasStoppedColliding\").setBoolean(true) ",
+            "} else if(runtimeScene.getGame().getVariables().get(\"hasStoppedColliding\").getAsBoolean()){",
+            "     seg.getVariables().get(\"polarForceMagnitude\").setNumber(seg.getVariables().get(\"polarForceMagnitude\").getAsNumber()*.75)",
+            "     runtimeScene.getSoundManager().playSound(\"GrassSound.mp3\", false, 100, 1)",
+            "     runtimeScene.getGame().getVariables().get(\"hasStoppedColliding\").setBoolean(false) ",
+            "}",
+            "",
+            "//Keyboard stuff",
+            "seg.clearForces()",
+            "seg.addPolarForce(seg.getAngle(),seg.getVariables().get(\"polarForceMagnitude\").getAsNumber(),1)",
+            "seg.rotateTowardPosition(keyManager.getCursorX(),keyManager.getCursorY(),seg.getVariables().get(\"angularVelocity\").getAsNumber())",
+            "",
+            "",
+            "//Wait until the last segment exits some radius away from the spawn point, then create a new segment at the spawnpoint instead of using a timer",
+            "let pivotX = runtimeScene.getGame().getVariables().get(\"pivotX\").getAsNumber(), pivotY=runtimeScene.getGame().getVariables().get(\"pivotY\").getAsNumber()",
+            "if((objects[objects.length-1].getDistanceToPosition(pivotX,pivotY) > 80)){",
+            "    let newSegment = runtimeScene.createObject(\"Circle\")",
+            "",
+            "    //SPAWNPOINT/PIVOT coordinates",
+            "    ",
+            "    newSegment.setX(pivotX)",
+            "    newSegment.setY(pivotY)",
+            "    ",
+            "}",
+            "",
+            "//Retrieve pivot position on burrow for the underground scene",
+            "if(keyManager.isKeyPressed(A_KEY)){",
+            "    runtimeScene.getGame().getVariables().get(\"pivotX\").setNumber(seg.getX())",
+            "    runtimeScene.getGame().getVariables().get(\"pivotY\").setNumber(seg.getY())",
+            "    for(let i=1;i<objects.length;i++){",
+            "        objects[i].getVariables().get(\"hasBurrowed\").setBoolean(true)",
+            "    }",
+            "}",
+            "",
+            "if(keyManager.isKeyPressed(S_KEY)){",
+            "    //if press s key, use cursor to delete old/already burrowed segments",
+            "    let oldSegments = objects.filter(obj => obj.getVariables().get(\"hasBurrowed\").getAsBoolean())",
+            "",
+            "    //oldSegments.forEach(obj => {obj.deleteFromScene(obj.getInstanceContainer())}) for removing all",
+            "    if(oldSegments.length < 3){",
+            "        oldSegments.forEach(obj => {obj.deleteFromScene(obj.getInstanceContainer())})",
+            "    } else {",
+            "        for(let i=0;i<3;i++) oldSegments[oldSegments.length-1-i].deleteFromScene(oldSegments[oldSegments.length-1-i].getInstanceContainer())",
+            "    }",
+            "}",
+            "",
+            "//Camera",
+            "//runtimeScene.getLayer(\"Base\").setCameraX()",
+            "//runtimeScene.getLayer(\"Base\").setCameraY()",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "parameterObjects": "Circle",
+          "useStrict": true,
+          "eventsSheetExpanded": true
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Circle",
+                "Sun",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Sun",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "growthTime",
+                "+",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "GrowthTimer",
+                "=",
+                "\"Growth Time: \" + ToString(GlobalVariable(growthTime)) + \"s\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "PivotSegment",
+                "\"BoostTimer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Sound Files\\PvZSunSound.mp3",
+                "",
+                "50",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Circle",
+                "Water",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Water",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "growthTime",
+                "+",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "GrowthTimer",
+                "=",
+                "\"Growth Time: \" + ToString(GlobalVariable(growthTime)) + \"s\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "PivotSegment",
+                "\"TurnTimer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Sound Files\\WaterSound_Cut.mp3",
+                "",
+                "50",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "mod(round(TimeFromStart()),Sun.Variable(spawnTime))",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Sun",
+                "RandomInRange(100,ScreenWidth()-100)",
+                "RandomInRange(100,ScreenHeight()-100)",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "mod(round(TimeFromStart()),Water.Variable(spawnTime))",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Water",
+                "RandomInRange(100,ScreenWidth()-100)",
+                "RandomInRange(100,ScreenHeight()-100)",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Counter\"",
+                ">=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "GlobalVariable(growthTime)",
+                ">",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "growthTime",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "GrowthTimer",
+                "=",
+                "\"Growth Time: \" + ToString(GlobalVariable(growthTime)) + \"s\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Counter\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "PivotSegment",
+                "\"BoostTimer\"",
+                "<=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Circle",
+                "polarForceMagnitude",
+                "=",
+                "180"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "PivotSegment",
+                "\"BoostTimer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "GrowthTimer",
+                "=",
+                "\"Growth Time: \" + ToString(GlobalVariable(growthTime)) + \"s\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "PivotSegment",
+                "\"TurnTimer\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "PivotSegment",
+                "\"BoostTimer\"",
+                ">",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Circle",
+                "polarForceMagnitude",
+                "=",
+                "90"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "PivotSegment",
+                "\"TurnTimer\"",
+                "<=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Circle",
+                "angularVelocity",
+                "=",
+                "150"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "PivotSegment",
+                "\"TurnTimer\"",
+                ">",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Circle",
+                "angularVelocity",
+                "=",
+                "100"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "GlobalVariable(growthTime)",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Circle",
+                    "Fence",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "GameOverText",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeLayerTimeScale"
+              },
+              "parameters": [
+                "",
+                "",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Circle",
+                "Fence",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"Counter\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Circle",
+                "Fence",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Sound Files\\y2mate.com_-_Short_Circuit_Sound_Effect_HD.mp3",
+                "no",
+                "100",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "a"
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "isUnderground",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Underground\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "isUnderground",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "shouldLoadUnderground",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustResumed"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "PivotSegment",
+                "=",
+                "GlobalVariable(pivotX)"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "PivotSegment",
+                "=",
+                "GlobalVariable(pivotY)"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 8042920,
+          "ambientLightColorR": 16,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "gravityX": 0,
+          "gravityY": 9.8,
+          "scaleX": 100,
+          "scaleY": 100
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Underground",
+      "name": "Underground",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 64,
+        "gridHeight": 64,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.36732575450588223,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 718,
+          "layer": "",
+          "name": "GraveyardTileDirtCornerLeft",
+          "persistentUuid": "fa41d669-3eb9-4066-854a-22360a12d226",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Rock",
+          "persistentUuid": "73efceae-eed3-4e3e-a827-6f501c46cef8",
+          "width": 0,
+          "x": 914,
+          "y": 202,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Rock",
+          "persistentUuid": "9c737b83-6395-42c7-a659-11b3d2f965bb",
+          "width": 0,
+          "x": 181,
+          "y": 499,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Rock",
+          "persistentUuid": "b9df97de-4462-4179-b6bc-afaa35eff3b8",
+          "width": 0,
+          "x": 445,
+          "y": 215,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Rock",
+          "persistentUuid": "0f02b7c9-b7f1-448b-a4c9-2e424384f7ec",
+          "width": 0,
+          "x": 696,
+          "y": 474,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Rock",
+          "persistentUuid": "982c2d63-5923-45c2-b22c-5548383ca0bf",
+          "width": 0,
+          "x": 143,
+          "y": 155,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "name": "GrowthTimer",
+          "persistentUuid": "dbbe66d2-3309-45df-897f-6ec9626a9d55",
+          "width": 0,
+          "x": 532,
+          "y": 670,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "name": "GameOverText",
+          "persistentUuid": "dfef214c-5ac7-4718-a8ff-d106e17721e6",
+          "width": 0,
+          "x": 530,
+          "y": 308,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "ddf15b1d40420dca074cb0cc166fc21be5fb95aa5e8c1d1a9393b176b20d2d31",
+          "name": "GraveyardTileDirtCornerLeft",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Graveyard Tile Dirt Corner Left.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "3e979482abf4e4ae677e43b93350c58d51610a1351c4a464f3ad20ea1ceb5148",
+          "name": "PivotSegment",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Kinematic",
+              "bullet": false,
+              "fixedRotation": true,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 0,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "VineMid.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "18bdfd21f722a0777a2c966146e0d1cb89968c711bb42b2b9b0e647aaa5c3d42",
+          "name": "CircleGlass",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "polarForceMagnitude",
+              "type": "number",
+              "value": 90
+            },
+            {
+              "folded": true,
+              "name": "angularVelocity",
+              "type": "number",
+              "value": 100
+            },
+            {
+              "folded": true,
+              "name": "hasCollided",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "hasSurfaced",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "VineMid.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 18
+                          },
+                          {
+                            "x": 96,
+                            "y": 18
+                          },
+                          {
+                            "x": 96,
+                            "y": 72
+                          },
+                          {
+                            "x": 0,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "18bdfd21f722a0777a2c966146e0d1cb89968c711bb42b2b9b0e647aaa5c3d42",
+          "name": "CircleGlass2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "polarForceMagnitude",
+              "type": "number",
+              "value": 90
+            },
+            {
+              "folded": true,
+              "name": "angularVelocity",
+              "type": "number",
+              "value": 100
+            },
+            {
+              "folded": true,
+              "name": "hasCollided",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "hasSurfaced",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "VineMid.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 18
+                          },
+                          {
+                            "x": 96,
+                            "y": 18
+                          },
+                          {
+                            "x": 96,
+                            "y": 72
+                          },
+                          {
+                            "x": 0,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Rock",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Rock.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 96,
+                            "y": 0
+                          },
+                          {
+                            "x": 96,
+                            "y": 90
+                          },
+                          {
+                            "x": 0,
+                            "y": 90
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "GrowthTimer",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "growthTime",
+              "type": "number",
+              "value": 20
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "string": "Growth time: 0s",
+          "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "textAlignment": "center",
+          "characterSize": 48,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "GameOverText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "growthTime",
+              "type": "number",
+              "value": 20
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "string": "GAME OVER!",
+          "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "textAlignment": "center",
+          "characterSize": 64,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 255
+          }
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "PivotSegment",
+                "GlobalVariable(pivotX)",
+                "GlobalVariable(pivotY)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "CircleGlass",
+                "GlobalVariable(pivotX)",
+                "GlobalVariable(pivotY)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"UndergroundCountdown\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "GameOverText"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "d"
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "isUnderground",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "isUnderground",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "PopScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"UndergroundCountdown\"",
+                ">=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "growthTime",
+                "-",
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "GrowthTimer",
+                "=",
+                "\"Growth Time: \" + ToString(GlobalVariable(growthTime)) + \"s\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"UndergroundCountdown\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "",
+            "",
+            "if(!runtimeScene.getGame().getVariables().get(\"shouldLoadUnderground\").getAsBoolean()){",
+            "    runtimeScene.getGame().getVariables().get(\"shouldLoadUnderground\").setBoolean(true)",
+            "",
+            "    let x = runtimeScene.getGame().getVariables().get(\"undergroundSegmentX\").getAllChildrenArray() ",
+            "    let y = runtimeScene.getGame().getVariables().get(\"undergroundSegmentY\").getAllChildrenArray()",
+            "    let angles = runtimeScene.getGame().getVariables().get(\"undergroundSegmentAngles\").getAllChildrenArray()",
+            "",
+            "    for(let i=0;i<y.length;i++){",
+            "        let newSegment = runtimeScene.createObject(\"CircleGlass\")",
+            "        newSegment.getVariables().get(\"hasSurfaced\").setBoolean(true)",
+            "        newSegment.setX(x[i])",
+            "        newSegment.setY(y[i])",
+            "        newSegment.setAngle(angles[i])",
+            "    }",
+            "   ",
+            "}",
+            "",
+            "",
+            "const keyManager = runtimeScene.getGame().getInputManager(), S_KEY = 83, W_KEY = 87, A_KEY=65,D_KEY=68,SPACE_BAR=32",
+            "const seg = objects[0]",
+            "",
+            "const lerp = (fromValue, toValue, dx) => gdjs.evtTools.common.lerp(fromValue,toValue,dx)",
+            "const clamp = (number, lower, upper) => gdjs.evtTools.common.clamp(number, lower, upper)",
+            "",
+            "runtimeScene.getGame().getVariables().get(\"isSegmentsColliding\").setBoolean(false) ",
+            "",
+            "let objects1 = objects.filter(obj => obj.getVariables().get(\"hasSurfaced\").getAsBoolean() === false) //Only move the unsurfaced segments",
+            "for(let i=1;i<objects1.length;i++){",
+            "   if(objects1[i].getDistanceToObject(objects1[i-1]) > 80){ ",
+            "        objects1[i].setX(lerp(objects1[i].getX(),objects1[i-1].getX(),0.05))",
+            "        objects1[i].setY(lerp(objects1[i].getY(),objects1[i-1].getY(),0.05))",
+            "        objects1[i].setAngle(lerp(objects1[i].getAngle(), objects1[i].getAngleToObject(objects1[i-1]),0.08))",
+            "",
+            "   } ",
+            "",
+            "   //Tangled handling: Check if head(seg) intersects with the other segments that aren't the first one behind the head",
+            "   if(gdjs.RuntimeObject.collisionTest(seg, objects1[i]) && i!==1 && runtimeScene.getTimeManager().getTimeFromStart()>5000){ ",
+            "        runtimeScene.getGame().getVariables().get(\"isSegmentsColliding\").setBoolean(true) ",
+            "   } ",
+            "}",
+            "",
+            "//Handle getting tangled/collision",
+            "if(!runtimeScene.getGame().getVariables().get(\"isSegmentsColliding\").getAsBoolean()){",
+            "     runtimeScene.getGame().getVariables().get(\"hasStoppedColliding\").setBoolean(true) ",
+            "} else if(runtimeScene.getGame().getVariables().get(\"hasStoppedColliding\").getAsBoolean()){",
+            "     seg.getVariables().get(\"polarForceMagnitude\").setNumber(seg.getVariables().get(\"polarForceMagnitude\").getAsNumber()*.75)",
+            "     runtimeScene.getSoundManager().playSound(\"GrassSound.mp3\", false, 100, 1)",
+            "     runtimeScene.getGame().getVariables().get(\"hasStoppedColliding\").setBoolean(false) ",
+            "}",
+            "",
+            "//Keyboard stuff",
+            "seg.clearForces()",
+            "seg.addPolarForce(seg.getAngle(),seg.getVariables().get(\"polarForceMagnitude\").getAsNumber(),1)",
+            "seg.rotateTowardPosition(keyManager.getCursorX(),keyManager.getCursorY(),seg.getVariables().get(\"angularVelocity\").getAsNumber())",
+            "",
+            "",
+            "//Wait until the last segment exits some radius away from the spawn point, then create a new segment at the spawnpoint instead of using a timer",
+            "let pivotX = runtimeScene.getGame().getVariables().get(\"pivotX\").getAsNumber(), pivotY=runtimeScene.getGame().getVariables().get(\"pivotY\").getAsNumber()",
+            "if((objects[objects.length-1].getDistanceToPosition(pivotX,pivotY) > 80)){",
+            "    let newSegment = runtimeScene.createObject(\"CircleGlass\")",
+            "",
+            "    //SPAWNPOINT/PIVOT coordinates",
+            "    ",
+            "    newSegment.setX(pivotX)",
+            "    newSegment.setY(pivotY)",
+            "    ",
+            "}",
+            "",
+            "//Switch scene",
+            "if(keyManager.isKeyPressed(D_KEY)){",
+            "    //Set global pivot position",
+            "    runtimeScene.getGame().getVariables().get(\"pivotX\").setNumber(seg.getX())",
+            "    runtimeScene.getGame().getVariables().get(\"pivotY\").setNumber(seg.getY())",
+            "",
+            "    //Clear position holding arrays",
+            "    let x = runtimeScene.getGame().getVariables().get(\"undergroundSegmentX\")",
+            "    let y=runtimeScene.getGame().getVariables().get(\"undergroundSegmentY\")",
+            "    let angles=runtimeScene.getGame().getVariables().get(\"undergroundSegmentAngles\")",
+            "",
+            "    for(let i=0;i<objects.length;i++){ ",
+            "        x.addChild(parseInt(i),objects[i].getX())",
+            "        y.addChild(parseInt(i),objects[i].getY())",
+            "        angles.addChild(parseInt(i),objects[i].getAngle())",
+            "    }",
+            "     for(let i=1;i<objects.length;i++){ ",
+            "        objects[i].getVariables().get(\"hasSurfaced\").setBoolean(true)",
+            "    }",
+            "}",
+            "",
+            ""
+          ],
+          "parameterObjects": "CircleGlass",
+          "useStrict": true,
+          "eventsSheetExpanded": true
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "GlobalVariable(growthTime)",
+                "<=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "PauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"UndergroundCountdown\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "GameOverText",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "gravityX": 0,
+          "gravityY": 9.8,
+          "scaleX": 100,
+          "scaleY": 100
+        }
+      ]
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
