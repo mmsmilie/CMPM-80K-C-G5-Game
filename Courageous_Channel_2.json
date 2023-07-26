@@ -1606,6 +1606,7 @@
       ],
       "objects": [
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "3e979482abf4e4ae677e43b93350c58d51610a1351c4a464f3ad20ea1ceb5148",
           "name": "Circle",
           "tags": "",
@@ -1764,6 +1765,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "3e979482abf4e4ae677e43b93350c58d51610a1351c4a464f3ad20ea1ceb5148",
           "name": "PivotSegment",
           "tags": "",
@@ -1829,6 +1831,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "db8784c99a3af8e5d991ea8b78bf106ba9682c9703f93d91f60666251ab57a37",
           "name": "BurrowHole",
           "tags": "",
@@ -1870,6 +1873,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "0ad80b38700a8082ef5c100c3975fb6747e59f0a5cc7396b4431234ed70a9bdb",
           "name": "Sun",
           "tags": "",
@@ -1977,6 +1981,7 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "b0fa8e7f548bb1f4edef1ed8d765f3d39219f7b7cfb3fa65c95b6e4479e9fd52",
           "name": "Fence",
           "tags": "",
@@ -2229,6 +2234,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "7f5ca3002579f1f52547bd3a2a300e0f4344177ce7be4059e91d65abf3b37c1a",
           "name": "Water",
           "tags": "",
@@ -2278,6 +2284,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PruneButton",
           "tags": "",
@@ -2348,6 +2355,7 @@
           "behaviors": []
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "NewSprite",
           "tags": "",
@@ -2359,6 +2367,7 @@
           "animations": []
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "ButtonMenu",
           "tags": "",
@@ -2548,6 +2557,7 @@
             "}",
             "",
             "// FIX: Collision with persistent segments",
+            "",
             "runtimeScene.getGame().getVariables().get(\"isSegmentsColliding\").setBoolean(false) ",
             "let objects1 = objects.filter(obj => obj.getVariables().get(\"hasBurrowed\").getAsBoolean() === false) //Only move the unburrowed segments",
             "for(let i=1;i<objects1.length;i++){",
@@ -3504,6 +3514,7 @@
       ],
       "objects": [
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "ddf15b1d40420dca074cb0cc166fc21be5fb95aa5e8c1d1a9393b176b20d2d31",
           "name": "GraveyardTileDirtCornerLeft",
           "tags": "",
@@ -3564,6 +3575,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "3e979482abf4e4ae677e43b93350c58d51610a1351c4a464f3ad20ea1ceb5148",
           "name": "PivotSegment",
           "tags": "",
@@ -3629,6 +3641,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "18bdfd21f722a0777a2c966146e0d1cb89968c711bb42b2b9b0e647aaa5c3d42",
           "name": "CircleGlass",
           "tags": "",
@@ -3714,6 +3727,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "18bdfd21f722a0777a2c966146e0d1cb89968c711bb42b2b9b0e647aaa5c3d42",
           "name": "CircleGlass2",
           "tags": "",
@@ -3799,6 +3813,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Rock",
           "tags": "",
