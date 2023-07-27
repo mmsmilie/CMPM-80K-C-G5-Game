@@ -495,6 +495,20 @@
         "name": "Top",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Bass Meant Jazz.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "647753fc018c01d628d50774d5f831c492daf6da5e6594843256062425d1e3dc_Bass Meant Jazz.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Jazz/647753fc018c01d628d50774d5f831c492daf6da5e6594843256062425d1e3dc_Bass Meant Jazz.aac",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
