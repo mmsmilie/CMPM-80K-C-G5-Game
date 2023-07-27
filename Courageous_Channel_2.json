@@ -8,7 +8,7 @@
   },
   "properties": {
     "adaptGameResolutionAtRuntime": true,
-    "antialiasingMode": "MSAA",
+    "antialiasingMode": "none",
     "antialisingEnabledOnMobile": false,
     "folderProject": true,
     "orientation": "landscape",
@@ -66,421 +66,12 @@
     "resources": [
       {
         "alwaysLoaded": false,
-        "file": "VineMid.png",
+        "file": "assets/Grass.png",
         "kind": "image",
         "metadata": "",
-        "name": "VineMid.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/New image150.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\New image150.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ElectricFenceMid_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ElectricFenceMid_1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ElectricFenceMid_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ElectricFenceMid_2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ElectricFenceMid_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ElectricFenceMid_3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ElectricFenceCorner_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ElectricFenceCorner_1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ElectricFenceCorner_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ElectricFenceCorner_2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ElectricFenceCorner_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ElectricFenceCorner_3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "PruneButton_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "PruneButton_1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "PruneButton_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "PruneButton_2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "file": "assets/Kenney Pixel.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/VineTop.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "VineTop",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Grass_Brian.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Grass_Brian.png",
+        "name": "assets\\Grass.png",
         "smoothed": false,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Water.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Water",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Sun4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Sun3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Sound Files/WaterSound_Cut.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sound Files\\WaterSound_Cut.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "file": "Sound Files/PvZSunSound.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sound Files\\PvZSunSound.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "file": "Sound Files/2PM-PM-Music.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sound Files\\2PM-PM-Music.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "file": "Sound Files/y2mate.com_-_Short_Circuit_Sound_Effect_HD.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sound Files\\y2mate.com_-_Short_Circuit_Sound_Effect_HD.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Graveyard Tile Dirt Corner Left.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Graveyard Tile Dirt Corner Left.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Worlds/Graveyard/f5e75ca5b4445d02bf3a5c7fcce11c4039f18a3090ed78de56a9aee10ea6fff5_Graveyard Tile Dirt Corner Left.png",
-          "name": "Graveyard Tile Dirt Corner Left.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Rock.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Rock.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/Bass Meant Jazz.aac",
-        "kind": "audio",
-        "metadata": "",
-        "name": "647753fc018c01d628d50774d5f831c492daf6da5e6594843256062425d1e3dc_Bass Meant Jazz.aac",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Jazz/647753fc018c01d628d50774d5f831c492daf6da5e6594843256062425d1e3dc_Bass Meant Jazz.aac",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/StartButton2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "StartButton2",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\2.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Pause-Unpause Button.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Pause-Unpause Button.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Pause-Unpause Button.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Pause-Unpause Button",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Pause-Unpause Button2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Pause-Unpause Button2",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Pause-Unpause Button3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Pause-Unpause Button3",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Pause-Unpause Button4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Pause-Unpause Button4",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite12.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite3",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite12.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite4",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite12.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite5",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite12.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite6",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Pause-Unpause Button5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Pause-Unpause Button5",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Pause-Unpause Button6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Pause-Unpause Button6",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Pause-Unpause Button7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Pause-Unpause Button7",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Pause-Unpause Button8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Pause-Unpause Button8",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "file": "Sound Files/GrassSound.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sound Files\\GrassSound.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/crickets.aac",
-        "kind": "audio",
-        "metadata": "",
-        "name": "15f9b6aec4406fc99b9bb716e14f565325caf812039c22d18d836da97f5bc2a6_crickets.aac",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Audio/15f9b6aec4406fc99b9bb716e14f565325caf812039c22d18d836da97f5bc2a6_crickets.aac",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "file": "Sound Files/TreeSound.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sound Files\\TreeSound.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/New image153.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image153.png\"}",
-        "name": "TextBGBrown",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/New image154.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "TextBGGreen",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "VineTop.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "VineTop.png",
-        "smoothed": false,
-        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -522,48 +113,119 @@
         }
       },
       {
-        "file": "assets/CantoraOne-Regular.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "CantoraOne-Regular.ttf",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/05b0c1364a92b436b86ca819e66b63480d1bc2fb399f6c0cf8bffbf8199ccc2a_CantoraOne-Regular.ttf",
-          "name": "CantoraOne-Regular.ttf"
-        }
-      },
-      {
-        "file": "assets/Kenney Pixel.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "assets\\Kenney Pixel.ttf",
-        "userAdded": true
-      },
-      {
         "alwaysLoaded": false,
-        "file": "Copper.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Copper.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Copper.png",
+        "file": "assets/NewSprite8.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "Copper",
+        "name": "IconBG",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Copper.png2.png",
+        "file": "assets/Pause-Unpause Button7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Pause Button",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pause-Unpause Button8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Pause Button2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pause-Unpause Button.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Play Button",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pause-Unpause Button2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Play Button2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/StartButton2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "StartButton",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "StartButton2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sun4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Sun",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image153.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image153.png\"}",
+        "name": "TextBGBrown",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image154.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "Copper.png2",
+        "name": "TextBGGreen",
         "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/VineTop.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/VineTop.png\"}",
+        "name": "VineTop",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Kenney Pixel.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Kenney Pixel.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "Sound Files/2PM-PM-Music.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound Files\\2PM-PM-Music.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": true
       },
       {
@@ -571,6 +233,36 @@
         "kind": "audio",
         "metadata": "",
         "name": "Sound Files\\Collision_w_Rock.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Sound Files/crickets.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound Files\\crickets.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Sound Files/GrassSound.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound Files\\GrassSound.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Sound Files/Sni_Snip.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound Files\\Sni_Snip.mp3",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
@@ -587,14 +279,222 @@
         "userAdded": true
       },
       {
-        "file": "Sound Files/Sni_Snip.mp3",
+        "file": "Sound Files/SunSoundEffect.mp3",
         "kind": "audio",
         "metadata": "",
-        "name": "Sound Files\\Sni_Snip.mp3",
+        "name": "Sound Files\\SunSoundEffect.mp3",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "Sound Files/TreeSound.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound Files\\TreeSound.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Sound Files/WaterSound_Cut.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound Files\\WaterSound_Cut.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Sound Files/y2mate.com_-_Short_Circuit_Sound_Effect_HD.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound Files\\y2mate.com_-_Short_Circuit_Sound_Effect_HD.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Kenney Pixel.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\Kenney Pixel.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/VineMid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\VineMid.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ElectricFenceMid_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ElectricFenceMid_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ElectricFenceMid_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ElectricFenceMid_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ElectricFenceMid_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ElectricFenceMid_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ElectricFenceCorner_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ElectricFenceCorner_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ElectricFenceCorner_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ElectricFenceCorner_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ElectricFenceCorner_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ElectricFenceCorner_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PruneButton_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\PruneButton_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PruneButton_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\PruneButton_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Burrow Button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Burrow Button.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Burrow Button2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Burrow Button2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Burrow Button3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Burrow Button3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Burrow Button4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Burrow Button4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Water3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Water3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RootMid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RootMid.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Rock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Rock.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Copper.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Copper.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tile-Able Dirt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tile-Able Dirt.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Top.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Top.png\"}",
+        "name": "Top",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

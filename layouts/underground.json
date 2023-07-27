@@ -33,22 +33,6 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 718,
-      "layer": "",
-      "name": "GraveyardTileDirtCornerLeft",
-      "persistentUuid": "fa41d669-3eb9-4066-854a-22360a12d226",
-      "width": 1280,
-      "x": 0,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -293,70 +277,25 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 720,
+      "layer": "",
+      "name": "Dirt",
+      "persistentUuid": "88036153-9111-4ac1-91f8-d5abf0eb4510",
+      "width": 1280,
+      "x": 0,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
-    {
-      "adaptCollisionMaskAutomatically": false,
-      "assetStoreId": "ddf15b1d40420dca074cb0cc166fc21be5fb95aa5e8c1d1a9393b176b20d2d31",
-      "name": "GraveyardTileDirtCornerLeft",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Graveyard Tile Dirt Corner Left.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "3e979482abf4e4ae677e43b93350c58d51610a1351c4a464f3ad20ea1ceb5148",
@@ -402,7 +341,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "VineMid.png",
+                  "image": "assets\\RootMid.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -424,7 +363,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "18bdfd21f722a0777a2c966146e0d1cb89968c711bb42b2b9b0e647aaa5c3d42",
       "name": "VineSegment",
       "tags": "",
@@ -460,7 +399,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "Mid",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -469,7 +408,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "VineMid.png",
+                  "image": "assets\\RootMid.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -486,19 +425,19 @@
                     [
                       {
                         "x": 0,
-                        "y": 18
+                        "y": 28
                       },
                       {
                         "x": 96,
-                        "y": 18
+                        "y": 28
                       },
                       {
                         "x": 96,
-                        "y": 72
+                        "y": 64
                       },
                       {
                         "x": 0,
-                        "y": 72
+                        "y": 64
                       }
                     ]
                   ]
@@ -508,16 +447,17 @@
           ]
         },
         {
-          "name": "",
+          "name": "Top",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "VineTop.png",
+                  "image": "Top",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -530,7 +470,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 28
+                      },
+                      {
+                        "x": 96,
+                        "y": 47
+                      },
+                      {
+                        "x": 96,
+                        "y": 49
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -559,7 +518,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Rock.png",
+                  "image": "assets\\Rock.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -619,7 +578,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Growth time: 0s",
-      "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+      "font": "assets\\Kenney Pixel.ttf",
       "textAlignment": "center",
       "characterSize": 48,
       "color": {
@@ -648,7 +607,7 @@
       "effects": [],
       "behaviors": [],
       "string": "GAME OVER!",
-      "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+      "font": "assets\\Kenney Pixel.ttf",
       "textAlignment": "center",
       "characterSize": 64,
       "color": {
@@ -670,7 +629,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Pause (Esc)",
-      "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+      "font": "assets\\Kenney Pixel.ttf",
       "textAlignment": "center",
       "characterSize": 36,
       "color": {
@@ -701,7 +660,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Pause-Unpause Button8",
+                  "image": "Pause Button2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -737,7 +696,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Pause-Unpause Button7",
+                  "image": "Pause Button",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -786,7 +745,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Pause-Unpause Button2",
+                  "image": "Play Button2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -822,7 +781,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Pause-Unpause Button",
+                  "image": "Play Button",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -875,7 +834,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Guide the growing vine with your mouse cursor.\n\nCollect sun & water to increase available growth time. Sunlight will give a temporary speed boost and water will give a temporary turn speed boost (non-stacking).\n\nBe careful not to cross over your vine or you will get tangled and permanently slowed.\n\nPress (A) to burrow underground to slow the growth timer countdown. Press (D) to return above ground.  When charged up, press (S) to prune your vine and remove old segments cluttering the area.",
-      "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+      "font": "assets\\Kenney Pixel.ttf",
       "textAlignment": "left",
       "characterSize": 42,
       "color": {
@@ -950,7 +909,7 @@
           "smoothed": true,
           "underlined": false,
           "string": "Reload to Restart",
-          "font": "assets\\Kenney Pixel.ttf",
+          "font": "Kenney Pixel.ttf",
           "textAlignment": "center",
           "characterSize": 40,
           "color": {
@@ -976,9 +935,21 @@
       "height": 64,
       "name": "Copper",
       "tags": "",
-      "texture": "Copper.png2",
+      "texture": "assets\\Copper.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 64,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 96,
+      "name": "Dirt",
+      "tags": "",
+      "texture": "assets\\Tile-Able Dirt.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 96,
       "variables": [],
       "effects": [],
       "behaviors": []
@@ -1211,6 +1182,27 @@
     {
       "type": "BuiltinCommonInstructions::JsCode",
       "inlineCode": [
+        "function shortestRelativeAngle(a, b)",
+        "{",
+        "    const FULL_ROT = 360;",
+        "    a %= FULL_ROT;",
+        "    b %= FULL_ROT;",
+        "    if (Math.abs(a - b) < 0.1) { return 0; }",
+        "",
+        "    let upper = b;",
+        "    let lower = b;",
+        "    if (b < a)",
+        "    {",
+        "        upper += FULL_ROT;",
+        "    }",
+        "    else",
+        "    {",
+        "        lower -= FULL_ROT;",
+        "    }",
+        "",
+        "    return (((a - lower) < (upper - a)) ? (lower - a) : (upper - a));",
+        "}",
+        "",
         "if(!runtimeScene.getGame().getVariables().get(\"shouldLoadUnderground\").getAsBoolean()){",
         "    runtimeScene.getGame().getVariables().get(\"shouldLoadUnderground\").setBoolean(true)",
         "",
@@ -1242,9 +1234,9 @@
         "   if(objects1[i].getDistanceToObject(objects1[i-1]) > 80){ ",
         "        objects1[i].setX(lerp(objects1[i].getX(),objects1[i-1].getX(),0.05))",
         "        objects1[i].setY(lerp(objects1[i].getY(),objects1[i-1].getY(),0.05))",
-        "        objects1[i].setAngle(lerp(objects1[i].getAngle(), objects1[i].getAngleToObject(objects1[i-1]),0.08))",
+        "   }",
+        "    objects1[i].setAngle(objects1[i].getAngle() + (shortestRelativeAngle(objects1[i].getAngle(), objects1[i].getAngleToObject(objects[i - 1])) * 0.08));",
         "",
-        "   } ",
         "",
         "   //Tangled handling: Check if head(seg) intersects with the other segments that aren't the first one behind the head",
         "   if(gdjs.RuntimeObject.collisionTest(seg, objects1[i]) && i!==1 && runtimeScene.getTimeManager().getTimeFromStart()>5000){ ",

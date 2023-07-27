@@ -126,7 +126,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "StartButton2",
+                  "image": "StartButton",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -143,7 +143,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\2.png",
+                  "image": "StartButton2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -169,7 +169,7 @@
       "height": 96,
       "name": "Grass",
       "tags": "",
-      "texture": "Grass_Brian.png",
+      "texture": "assets\\Grass.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 96,
       "variables": [],
@@ -189,7 +189,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Vine Game",
-      "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+      "font": "assets\\Kenney Pixel.ttf",
       "textAlignment": "left",
       "characterSize": 240,
       "color": {
@@ -211,7 +211,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Guide the growing vine with your mouse cursor.\n\nCollect sun & water to increase available growth time. Sunlight will give a temporary speed boost and water will give a temporary turn speed boost (non-stacking).\n\nBe careful not to cross over your vine or you will get tangled and permanently slowed.\n\nPress (A) to burrow underground to slow the growth timer countdown. Press (D) to return above ground. Press (S) to prune your vine and remove old segments cluttering the area. These abilities have a 5 second cooldown.",
-      "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+      "font": "assets\\Kenney Pixel.ttf",
       "textAlignment": "left",
       "characterSize": 42,
       "color": {
@@ -264,7 +264,7 @@
           },
           "parameters": [
             "",
-            "15f9b6aec4406fc99b9bb716e14f565325caf812039c22d18d836da97f5bc2a6_crickets.aac",
+            "Sound Files\\crickets.aac",
             "yes",
             "",
             ""
@@ -375,6 +375,15 @@
             "yes",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "SoundPlaying"
+          },
+          "parameters": [
+            "",
+            "0"
+          ]
         }
       ],
       "actions": [
@@ -407,7 +416,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "CREDITS\n\nSound/Music\n\nSun Sound Effect: Plants vs. Zombies\nShort Circuit Sound Effect: https://www.youtube.com/watch?v=PxWARwcVuL0\nAbove Ground Music: 2PM by Lud and Schlatts Musical Emporium https://www.youtube.com/watch?v=0dW17XShyy4\nUnderground Music: Bass Meant Jazz from GDevelop\n"
+      "comment": "CREDITS\n\n~Sound/Music~\nShort Circuit Sound Effect: https://www.youtube.com/watch?v=PxWARwcVuL0\nAbove Ground Music: 2PM by Lud and Schlatts Musical Emporium https://www.youtube.com/watch?v=0dW17XShyy4\nUnderground Music: Bass Meant Jazz from GDevelop"
     }
   ],
   "layers": [

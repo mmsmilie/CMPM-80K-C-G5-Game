@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6455105703311512,
+    "zoomFactor": 0.8748419189453124,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -119,7 +119,7 @@
       "width": 1280,
       "x": 0,
       "y": 0,
-      "zOrder": -1,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -913,12 +913,12 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
+              "looping": false,
               "timeBetweenFrames": 0.025,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "VineMid.png",
+                  "image": "assets\\VineMid.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1051,8 +1051,8 @@
               "timeBetweenFrames": 0.025,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "VineMid.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\VineMid.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1102,7 +1102,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Sun3",
+                  "image": "Sun",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1143,7 +1143,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Growth time: 0s",
-      "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+      "font": "assets\\Kenney Pixel.ttf",
       "textAlignment": "center",
       "characterSize": 64,
       "color": {
@@ -1172,7 +1172,7 @@
       "effects": [],
       "behaviors": [],
       "string": "GAME OVER!",
-      "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+      "font": "assets\\Kenney Pixel.ttf",
       "textAlignment": "center",
       "characterSize": 64,
       "color": {
@@ -1193,7 +1193,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "Mid",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1202,7 +1202,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "ElectricFenceMid_1.png",
+                  "image": "assets\\ElectricFenceMid_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1222,23 +1222,23 @@
                         "y": 36
                       },
                       {
-                        "x": 96,
-                        "y": 36
-                      },
-                      {
-                        "x": 96,
-                        "y": 60
-                      },
-                      {
                         "x": 0,
                         "y": 60
+                      },
+                      {
+                        "x": 96,
+                        "y": 60
+                      },
+                      {
+                        "x": 96,
+                        "y": 36
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "ElectricFenceMid_2.png",
+                  "image": "assets\\ElectricFenceMid_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1258,23 +1258,23 @@
                         "y": 36
                       },
                       {
-                        "x": 96,
-                        "y": 36
-                      },
-                      {
-                        "x": 96,
-                        "y": 60
-                      },
-                      {
                         "x": 0,
                         "y": 60
+                      },
+                      {
+                        "x": 96,
+                        "y": 60
+                      },
+                      {
+                        "x": 96,
+                        "y": 36
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "ElectricFenceMid_3.png",
+                  "image": "assets\\ElectricFenceMid_3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1294,16 +1294,16 @@
                         "y": 36
                       },
                       {
-                        "x": 96,
-                        "y": 36
-                      },
-                      {
-                        "x": 96,
-                        "y": 60
-                      },
-                      {
                         "x": 0,
                         "y": 60
+                      },
+                      {
+                        "x": 96,
+                        "y": 60
+                      },
+                      {
+                        "x": 96,
+                        "y": 36
                       }
                     ]
                   ]
@@ -1313,7 +1313,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "Corner",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1322,7 +1322,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "ElectricFenceCorner_1.png",
+                  "image": "assets\\ElectricFenceCorner_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1342,23 +1342,19 @@
                         "y": 36
                       },
                       {
-                        "x": 96,
-                        "y": 36
-                      },
-                      {
-                        "x": 70,
-                        "y": 67
-                      },
-                      {
                         "x": 36,
                         "y": 96
+                      },
+                      {
+                        "x": 96,
+                        "y": 36
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "ElectricFenceCorner_2.png",
+                  "image": "assets\\ElectricFenceCorner_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1378,23 +1374,19 @@
                         "y": 36
                       },
                       {
-                        "x": 96,
-                        "y": 36
-                      },
-                      {
-                        "x": 70,
-                        "y": 67
-                      },
-                      {
                         "x": 36,
                         "y": 96
+                      },
+                      {
+                        "x": 96,
+                        "y": 36
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "ElectricFenceCorner_3.png",
+                  "image": "assets\\ElectricFenceCorner_3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1414,16 +1406,12 @@
                         "y": 36
                       },
                       {
-                        "x": 96,
-                        "y": 36
-                      },
-                      {
-                        "x": 70,
-                        "y": 67
-                      },
-                      {
                         "x": 36,
                         "y": 96
+                      },
+                      {
+                        "x": 96,
+                        "y": 36
                       }
                     ]
                   ]
@@ -1463,7 +1451,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Water",
+                  "image": "Water3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1489,24 +1477,12 @@
       "height": 96,
       "name": "Grass",
       "tags": "",
-      "texture": "Grass_Brian.png",
+      "texture": "assets\\Grass.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 96,
       "variables": [],
       "effects": [],
       "behaviors": []
-    },
-    {
-      "adaptCollisionMaskAutomatically": false,
-      "assetStoreId": "",
-      "name": "NewSprite",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": []
     },
     {
       "adaptCollisionMaskAutomatically": false,
@@ -1530,7 +1506,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewSprite2",
+                  "image": "IconBG",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1568,11 +1544,62 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.025,
+              "timeBetweenFrames": 0.25,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\New image150.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Burrow Button.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Burrow Button2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Burrow Button3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Burrow Button4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1613,8 +1640,8 @@
               "timeBetweenFrames": 0.5,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "PruneButton_1.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\PruneButton_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1630,8 +1657,8 @@
                   "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "PruneButton_2.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\PruneButton_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1665,7 +1692,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Burrow (A)",
-      "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+      "font": "assets\\Kenney Pixel.ttf",
       "textAlignment": "center",
       "characterSize": 36,
       "color": {
@@ -1709,7 +1736,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Pause (Esc)",
-      "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+      "font": "assets\\Kenney Pixel.ttf",
       "textAlignment": "center",
       "characterSize": 36,
       "color": {
@@ -1740,7 +1767,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Pause-Unpause Button8",
+                  "image": "Pause Button2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1776,7 +1803,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Pause-Unpause Button7",
+                  "image": "Pause Button",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1825,7 +1852,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Pause-Unpause Button2",
+                  "image": "Play Button2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1861,7 +1888,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Pause-Unpause Button",
+                  "image": "Play Button",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1913,8 +1940,8 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Guide the growing vine with your mouse cursor.\n\nCollect sun & water to increase available growth time. The vine dies with it runs out of growth time. Sunlight will give a temporary speed boost and water will give a temporary turn speed boost (non-stacking).\n\nBe careful not to cross over your vine or you will get tangled and permanently slowed. Colliding with the electric fence or copper will kill the vine.\n\nPress (A) to burrow underground to slow the growth timer countdown. Press (D) to return above ground.  When charged up, press (S) to prune your vine and remove old segments cluttering the area.",
-      "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+      "string": "Guide the growing vine with your mouse cursor.\n\nCollect sun & water to increase available growth time. Sunlight will give a temporary speed boost and water will give a temporary turn speed boost (non-stacking).\n\nBe careful not to cross over your vine or you will get tangled and permanently slowed.\n\nPress (A) to burrow underground to slow the growth timer countdown. Press (D) to return above ground. Press (S) to prune your vine and remove old segments cluttering the area. These abilities have a 5 second cooldown.",
+      "font": "assets\\Kenney Pixel.ttf",
       "textAlignment": "left",
       "characterSize": 42,
       "color": {
@@ -1989,7 +2016,7 @@
           "smoothed": true,
           "underlined": false,
           "string": "Reload to Restart",
-          "font": "assets\\Kenney Pixel.ttf",
+          "font": "Kenney Pixel.ttf",
           "textAlignment": "center",
           "characterSize": 40,
           "color": {
@@ -2133,6 +2160,26 @@
         "const lerp = (fromValue, toValue, dx) => gdjs.evtTools.common.lerp(fromValue,toValue,dx)",
         "const clamp = (number, lower, upper) => gdjs.evtTools.common.clamp(number, lower, upper)",
         "",
+        "function shortestRelativeAngle(a, b)",
+        "{",
+        "    const FULL_ROT = 360;",
+        "    a %= FULL_ROT;",
+        "    b %= FULL_ROT;",
+        "    if (Math.abs(a - b) < 0.1) { return 0; }",
+        "",
+        "    let upper = b;",
+        "    let lower = b;",
+        "    if (b < a)",
+        "    {",
+        "        upper += FULL_ROT;",
+        "    }",
+        "    else",
+        "    {",
+        "        lower -= FULL_ROT;",
+        "    }",
+        "",
+        "    return (((a - lower) < (upper - a)) ? (lower - a) : (upper - a));",
+        "}",
         "",
         "if(runtimeScene.sceneJustResumed()){",
         "    seg.setX(runtimeScene.getGame().getVariables().get(\"pivotX\").getAsNumber())",
@@ -2146,11 +2193,11 @@
         "let objects1 = objects.filter(obj => obj.getVariables().get(\"hasBurrowed\").getAsBoolean() === false) //Only move the unburrowed segments",
         "for(let i=1;i<objects1.length;i++){",
         "   if(objects1[i].getDistanceToObject(objects1[i-1]) > 80 && !(objects1[i].getVariables().get(\"hasBurrowed\").getAsBoolean())){ ",
+        "        //objects1[i].setX(objects1[i].getX() + ((objects1[i - 1].getX() - objects1[i].getX()) * 0.05));",
         "        objects1[i].setX(lerp(objects1[i].getX(),objects1[i-1].getX(),0.05))",
         "        objects1[i].setY(lerp(objects1[i].getY(),objects1[i-1].getY(),0.05))",
-        "        objects1[i].setAngle(lerp(objects1[i].getAngle(), objects1[i].getAngleToObject(objects1[i-1]),0.08))",
-        "",
-        "   } ",
+        "    }",
+        "    objects1[i].setAngle(objects1[i].getAngle() + (shortestRelativeAngle(objects1[i].getAngle(), objects1[i].getAngleToObject(objects[i - 1])) * 0.08));",
         "",
         "   //Tangled handling: Check if head(seg) intersects with the other segments that aren't the first one behind the head",
         "    ",
@@ -2284,7 +2331,7 @@
           },
           "parameters": [
             "",
-            "Sound Files\\PvZSunSound.mp3",
+            "Sound Files\\SunSoundEffect.mp3",
             "",
             "50",
             ""
