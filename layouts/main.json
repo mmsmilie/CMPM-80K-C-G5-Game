@@ -2850,15 +2850,6 @@
       "actions": [
         {
           "type": {
-            "value": "PushScene"
-          },
-          "parameters": [
-            "",
-            "\"Underground\""
-          ]
-        },
-        {
-          "type": {
             "value": "SetGlobalVariableAsBoolean"
           },
           "parameters": [
@@ -2873,6 +2864,15 @@
           "parameters": [
             "shouldLoadUnderground",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"Underground\""
           ]
         }
       ]
@@ -3096,6 +3096,130 @@
                 "\"Instructions\""
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Restart",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "isSegmentsColliding",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "hasStoppedColliding",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "isUnderground",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "shouldLoadUnderground",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "isGameOver",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "growthTime",
+            "=",
+            "20"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "pivotX",
+            "=",
+            "200"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "pivotY",
+            "=",
+            "200"
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableClearChildren"
+          },
+          "parameters": [
+            "undergroundSegmentX"
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableClearChildren"
+          },
+          "parameters": [
+            "undergroundSegmentY"
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableClearChildren"
+          },
+          "parameters": [
+            "undergroundSegmentAngle"
+          ]
+        },
+        {
+          "type": {
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"Start Menu\""
           ]
         }
       ]

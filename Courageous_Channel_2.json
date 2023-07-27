@@ -616,6 +616,12 @@
     },
     {
       "folded": true,
+      "name": "growthTime",
+      "type": "number",
+      "value": 20
+    },
+    {
+      "folded": true,
       "name": "pivotX",
       "type": "number",
       "value": 200
@@ -634,6 +640,12 @@
     },
     {
       "folded": true,
+      "name": "shouldLoadUnderground",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
       "name": "undergroundSegmentX",
       "type": "array",
       "children": []
@@ -646,21 +658,9 @@
     },
     {
       "folded": true,
-      "name": "shouldLoadUnderground",
-      "type": "boolean",
-      "value": false
-    },
-    {
-      "folded": true,
       "name": "undergroundSegmentAngle",
       "type": "array",
       "children": []
-    },
-    {
-      "folded": true,
-      "name": "growthTime",
-      "type": "number",
-      "value": 20
     },
     {
       "folded": true,

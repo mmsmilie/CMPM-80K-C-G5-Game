@@ -210,7 +210,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Guide the growing vine with your mouse cursor.\n\nCollect sun & water to increase available growth time. Sunlight will give a temporary speed boost and water will give a temporary turn speed boost (non-stacking).\n\nBe careful not to cross over your vine or you will get tangled and permanently slowed.\n\nPress (A) to burrow underground to slow the growth timer countdown. Press (D) to return above ground.  When charged up, press (S) to prune your vine and remove old segments cluttering the area.",
+      "string": "Guide the growing vine with your mouse cursor.\n\nCollect sun & water to increase available growth time. Sunlight will give a temporary speed boost and water will give a temporary turn speed boost (non-stacking).\n\nBe careful not to cross over your vine or you will get tangled and permanently slowed.\n\nPress (A) to burrow underground to slow the growth timer countdown. Press (D) to return above ground. Press (S) to prune your vine and remove old segments cluttering the area. These abilities have a 5 second cooldown.",
       "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
       "textAlignment": "left",
       "characterSize": 42,
