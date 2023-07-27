@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.604083874998887,
+    "zoomFactor": 0.6244537826599993,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -140,7 +140,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "UI",
       "name": "PauseText",
       "persistentUuid": "d2d7aeac-d4d6-428a-a5d1-759f6d878c67",
       "width": 0,
@@ -156,7 +156,7 @@
       "customSize": true,
       "depth": 0,
       "height": 67,
-      "layer": "",
+      "layer": "UI",
       "name": "PausePlayIcon",
       "persistentUuid": "1da53098-93ee-44c9-a269-6ab8bc1fef72",
       "width": 67,
@@ -224,7 +224,7 @@
       "persistentUuid": "f34c69f8-e869-4d08-a255-4e2a82259ddd",
       "width": 1280,
       "x": 0,
-      "y": 0,
+      "y": -11,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -240,7 +240,7 @@
       "persistentUuid": "2d8c9004-e638-4a88-8efe-18c66665f11d",
       "width": 1280,
       "x": 0,
-      "y": 576,
+      "y": 584,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -255,8 +255,8 @@
       "name": "Copper",
       "persistentUuid": "a470f25d-7663-40fa-b8ee-494c59e1fb5c",
       "width": 64,
-      "x": 0,
-      "y": 64,
+      "x": -7,
+      "y": 58,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -271,7 +271,7 @@
       "name": "Copper",
       "persistentUuid": "23d9f7e8-c5cd-45e4-83a6-206833fe2c04",
       "width": 64,
-      "x": 1216,
+      "x": 1226,
       "y": 64,
       "zOrder": 18,
       "numberProperties": [],
@@ -318,7 +318,7 @@
       "layer": "UI",
       "name": "BurrowText",
       "persistentUuid": "95abf49b-6f88-4b69-8e12-9c94196e8ceb",
-      "width": 118,
+      "width": 144,
       "x": 86,
       "y": 675,
       "zOrder": 8,
@@ -334,7 +334,7 @@
       "layer": "UI",
       "name": "ButtonMenu",
       "persistentUuid": "7c3926ba-6bc3-4b6f-8db2-9b83b0b6637b",
-      "width": 228,
+      "width": 239,
       "x": -2,
       "y": 646,
       "zOrder": 0,
@@ -1014,7 +1014,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Burrow (A)",
+      "string": "Unburrow (D)",
       "font": "assets\\Kenney Pixel.ttf",
       "textAlignment": "center",
       "characterSize": 36,
@@ -1159,6 +1159,21 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "CursorLight",
+      "tags": "",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "radius": 200,
+        "color": "255;255;255",
+        "debugMode": false,
+        "texture": ""
+      }
     }
   ],
   "events": [
@@ -1254,6 +1269,48 @@
             "isPaused",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "CursorLight",
+            "CursorX()",
+            "CursorY()",
+            "\"Lighting\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Sound Files\\DirtSound2.mp3",
+            "no",
+            "100",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "CursorLight",
+            "=",
+            "CursorX()",
+            "=",
+            "CursorY()"
+          ]
         }
       ]
     },
@@ -1304,6 +1361,18 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Sound Files\\DirtSound3.mp3",
+            "",
+            "",
+            ""
+          ]
+        },
         {
           "type": {
             "value": "SetGlobalVariableAsBoolean"
@@ -1977,6 +2046,22 @@
           "width": 0
         }
       ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 30,
+      "ambientLightColorG": 30,
+      "ambientLightColorR": 30,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": true,
+      "isLightingLayer": true,
+      "isLocked": false,
+      "name": "Lighting",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
       "effects": []
     },
     {
