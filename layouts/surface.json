@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8748419189453124,
+    "zoomFactor": 0.5684468129430021,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -3322,7 +3322,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "SpeedUpIcon5",
+                  "image": "assets\\NewSprite43.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3469,7 +3469,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "TurnIcon6",
+                  "image": "assets\\NewSprite41.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3548,18 +3548,6 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": []
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
       "name": "TangledIcon",
       "tags": "",
       "type": "Sprite",
@@ -3628,7 +3616,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite29",
+                  "image": "assets\\NewSprite36.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3762,7 +3750,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite33",
+                  "image": "NewSprite42",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3775,30 +3763,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 6,
-                        "y": 6
-                      },
-                      {
-                        "x": 90,
-                        "y": 6
-                      },
-                      {
-                        "x": 90,
-                        "y": 90
-                      },
-                      {
-                        "x": 6,
-                        "y": 90
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite34",
+                  "image": "assets\\NewSprite47.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3840,6 +3809,18 @@
     }
   ],
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Credits:\nMichael Muzilla - Art + audio assets\nDevin Huey - Gameplay and mechanics code\nBrian Chung - UI and lighting code + art"
+    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
@@ -4022,12 +4003,13 @@
         "        runtimeScene.getGame().getVariables().get(\"isSegmentsColliding\").setBoolean(true) ",
         "    }",
         "}",
-        "for(let i=1;i<objects.length;i++){",
-        "     if(gdjs.RuntimeObject.collisionTest(seg, objects[i]) && i!==1 && runtimeScene.getTimeManager().getTimeFromStart()>5000 && objects[i].getVariables().get(\"hasBurrowed\").getAsBoolean()){ ",
+        "",
+        "let objects2 = objects.filter(obj => obj.getVariables().get(\"hasBurrowed\").getAsBoolean() === true) ",
+        "for(let i=2;i<objects2.length;i++){",
+        "    if(gdjs.RuntimeObject.collisionTest(seg, objects2[i])){",
         "        runtimeScene.getGame().getVariables().get(\"isSegmentsColliding\").setBoolean(true) ",
         "    }",
         "}",
-        "",
         "",
         "",
         "//Handle getting tangled/collision",

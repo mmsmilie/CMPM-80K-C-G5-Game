@@ -380,6 +380,22 @@
       "depth": 0,
       "height": 55,
       "layer": "UI",
+      "name": "TurnIcon",
+      "persistentUuid": "ecbef5f9-0e2d-480b-842b-86411f8166e8",
+      "width": 55,
+      "x": 869,
+      "y": 658,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 55,
+      "layer": "UI",
       "name": "TangledIcon",
       "persistentUuid": "a70f7bd6-157b-43a4-9527-9e355dd09dbf",
       "width": 55,
@@ -1090,7 +1106,80 @@
               "looping": false,
               "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": []
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite19",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 90
+                      },
+                      {
+                        "x": 6,
+                        "y": 90
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite20",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 90
+                      },
+                      {
+                        "x": 6,
+                        "y": 90
+                      }
+                    ]
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -1140,7 +1229,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite35",
+                  "image": "NewSprite34",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1189,7 +1278,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite36",
+                  "image": "assets\\NewSprite35.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1225,7 +1314,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite37",
+                  "image": "NewSprite35",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1274,7 +1363,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite38",
+                  "image": "NewSprite37",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1323,7 +1412,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite39",
+                  "image": "assets\\NewSprite46.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1359,7 +1448,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite40",
+                  "image": "NewSprite38",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1972,6 +2061,14 @@
         "        runtimeScene.getGame().getVariables().get(\"isSegmentsColliding\").setBoolean(true) ",
         "   } ",
         "}",
+        "",
+        "let objects2 = objects.filter(obj => obj.getVariables().get(\"hasSurfaced\").getAsBoolean() === true) ",
+        "for(let i=2;i<objects2.length;i++){",
+        "    if(gdjs.RuntimeObject.collisionTest(seg, objects2[i])){",
+        "        runtimeScene.getGame().getVariables().get(\"isSegmentsColliding\").setBoolean(true) ",
+        "    }",
+        "}",
+        "",
         "",
         "//Handle getting tangled/collision",
         "if(!runtimeScene.getGame().getVariables().get(\"isSegmentsColliding\").getAsBoolean()){",
