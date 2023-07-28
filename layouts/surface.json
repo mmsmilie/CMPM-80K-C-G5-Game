@@ -4696,7 +4696,7 @@
               },
               "parameters": [
                 "GlobalVariable(growthTime)",
-                "=",
+                "<=",
                 "0"
               ]
             },
