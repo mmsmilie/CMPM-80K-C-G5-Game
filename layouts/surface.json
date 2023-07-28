@@ -165,8 +165,8 @@
       "name": "BurrowText",
       "persistentUuid": "3a1f0667-1f27-4653-8b7b-0d11387260d5",
       "width": 118,
-      "x": 93,
-      "y": 673,
+      "x": 94,
+      "y": 663,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -181,8 +181,8 @@
       "name": "PruneText",
       "persistentUuid": "b79f2221-b36c-4646-9e88-208a53d14542",
       "width": 107,
-      "x": 287,
-      "y": 675,
+      "x": 286,
+      "y": 665,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -1135,6 +1135,84 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "PruneCDText",
+      "persistentUuid": "abc38fdb-085f-4616-a2fa-9a2f9fd3b793",
+      "width": 0,
+      "x": 289,
+      "y": 689,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "BurrowCDText",
+      "persistentUuid": "64bc3ab0-c0da-4414-94ca-1c3c1991d3c2",
+      "width": 0,
+      "x": 94,
+      "y": 689,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 55,
+      "layer": "UI",
+      "name": "SpeedUpIcon",
+      "persistentUuid": "28a9a8f1-8d24-42c9-8174-a0a1187a10be",
+      "width": 55,
+      "x": 802,
+      "y": 658,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 55,
+      "layer": "UI",
+      "name": "TurnIcon",
+      "persistentUuid": "e9728e9b-1f1d-40a3-810f-c657e5dddd9e",
+      "width": 55,
+      "x": 869,
+      "y": 658,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 55,
+      "layer": "UI",
+      "name": "TangledIcon",
+      "persistentUuid": "e8ae25d2-7020-4ae3-894b-12eda156d73f",
+      "width": 55,
+      "x": 940,
+      "y": 658,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1954,6 +2032,28 @@
       ]
     },
     {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "PruneCDText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "0s",
+      "font": "assets\\Kenney Pixel.ttf",
+      "textAlignment": "left",
+      "characterSize": 36,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "db8784c99a3af8e5d991ea8b78bf106ba9682c9703f93d91f60666251ab57a37",
       "name": "BurrowIcon",
@@ -2142,6 +2242,28 @@
       "string": "Prune (S)",
       "font": "assets\\Kenney Pixel.ttf",
       "textAlignment": "center",
+      "characterSize": 36,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "BurrowCDText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "0s",
+      "font": "assets\\Kenney Pixel.ttf",
+      "textAlignment": "left",
       "characterSize": 36,
       "color": {
         "b": 0,
@@ -3128,6 +3250,593 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "SpeedUpIcon",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite27",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 90
+                      },
+                      {
+                        "x": 6,
+                        "y": 90
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SpeedUpIcon",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "SpeedUpIcon5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 90
+                      },
+                      {
+                        "x": 6,
+                        "y": 90
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "SpeedUpIcon6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 90
+                      },
+                      {
+                        "x": 6,
+                        "y": 90
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "TurnIcon",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "TurnIcon4",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TurnIcon5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 90
+                      },
+                      {
+                        "x": 6,
+                        "y": 90
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TurnIcon",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TurnIcon6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 90
+                      },
+                      {
+                        "x": 6,
+                        "y": 90
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TurnIcon7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 90
+                      },
+                      {
+                        "x": 6,
+                        "y": 90
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "TangledIcon",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite21",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite28",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 90
+                      },
+                      {
+                        "x": 6,
+                        "y": 90
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewSprite22",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite29",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 90
+                      },
+                      {
+                        "x": 6,
+                        "y": 90
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite30",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 90
+                      },
+                      {
+                        "x": 6,
+                        "y": 90
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite31",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 90
+                      },
+                      {
+                        "x": 6,
+                        "y": 90
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewSprite25",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite33",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 90
+                      },
+                      {
+                        "x": 6,
+                        "y": 90
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite34",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 90
+                      },
+                      {
+                        "x": 6,
+                        "y": 90
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -3232,6 +3941,24 @@
             "isPaused",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"PruneCooldown\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"GlobalBurrowCooldown\""
+          ]
         }
       ]
     },
@@ -3291,25 +4018,31 @@
         "    objects1[i].setAngle(objects1[i].getAngle() + (shortestRelativeAngle(objects1[i].getAngle(), objects1[i].getAngleToObject(objects1[i - 1])) * 0.08));",
         "",
         "   //Tangled handling: Check if head(seg) intersects with the other segments that aren't the first one behind the head",
-        "    ",
-        "   if(gdjs.RuntimeObject.collisionTest(seg, objects1[i]) && i!==1 && runtimeScene.getTimeManager().getTimeFromStart()>5000){ ",
+        "    if(gdjs.RuntimeObject.collisionTest(seg, objects1[i]) && i!==1 && runtimeScene.getTimeManager().getTimeFromStart()>5000){ ",
         "        runtimeScene.getGame().getVariables().get(\"isSegmentsColliding\").setBoolean(true) ",
-        "   }",
+        "    }",
         "}",
+        "for(let i=1;i<objects.length;i++){",
+        "     if(gdjs.RuntimeObject.collisionTest(seg, objects[i]) && i!==1 && runtimeScene.getTimeManager().getTimeFromStart()>5000 && objects[i].getVariables().get(\"hasBurrowed\").getAsBoolean()){ ",
+        "        runtimeScene.getGame().getVariables().get(\"isSegmentsColliding\").setBoolean(true) ",
+        "    }",
+        "}",
+        "",
+        "",
         "",
         "//Handle getting tangled/collision",
         "if(!runtimeScene.getGame().getVariables().get(\"isSegmentsColliding\").getAsBoolean()){",
         "     runtimeScene.getGame().getVariables().get(\"hasStoppedColliding\").setBoolean(true) ",
         "} else if(runtimeScene.getGame().getVariables().get(\"hasStoppedColliding\").getAsBoolean()){",
-        "     seg.getVariables().get(\"polarForceMagnitude\").setNumber(seg.getVariables().get(\"polarForceMagnitude\").getAsNumber()*.75)",
+        "     runtimeScene.getGame().getVariables().get(\"polarForceMagnitude\").setNumber(runtimeScene.getGame().getVariables().get(\"polarForceMagnitude\").getAsNumber()*.75)",
         "     runtimeScene.getSoundManager().playSound(\"GrassSound.mp3\", false, 100, 1)",
         "     runtimeScene.getGame().getVariables().get(\"hasStoppedColliding\").setBoolean(false) ",
         "}",
         "",
         "//Keyboard stuff",
         "seg.clearForces()",
-        "seg.addPolarForce(seg.getAngle(),seg.getVariables().get(\"polarForceMagnitude\").getAsNumber(),1)",
-        "seg.rotateTowardPosition(keyManager.getCursorX(),keyManager.getCursorY(),seg.getVariables().get(\"angularVelocity\").getAsNumber())",
+        "seg.addPolarForce(seg.getAngle(),runtimeScene.getGame().getVariables().get(\"polarForceMagnitude\").getAsNumber(),1)",
+        "seg.rotateTowardPosition(keyManager.getCursorX(),keyManager.getCursorY(),runtimeScene.getGame().getVariables().get(\"angularVelocityMagnitude\").getAsNumber())",
         "",
         "",
         "//Wait until the last segment exits some radius away from the spawn point, then create a new segment at the spawnpoint instead of using a timer",
@@ -3325,7 +4058,9 @@
         "}",
         "",
         "//Retrieve pivot position on burrow for the underground",
-        "if(keyManager.isKeyPressed(A_KEY) && !runtimeScene.getVariables().get(\"isPaused\").getAsBoolean() && !runtimeScene.getGame().getVariables().get(\"isGameOver\").getAsBoolean()){",
+        "if(keyManager.isKeyPressed(A_KEY) && !runtimeScene.getVariables().get(\"isPaused\").getAsBoolean() ",
+        "&& !runtimeScene.getGame().getVariables().get(\"isGameOver\").getAsBoolean() && runtimeScene.getGame().getVariables().get(\"globalBurrowCooldown\").getAsNumber() >= 5",
+        "){",
         "    runtimeScene.getSoundManager().playSound(\"Sound Files\\DirtSound1.mp3\")",
         "    runtimeScene.getGame().getVariables().get(\"pivotX\").setNumber(seg.getX())",
         "    runtimeScene.getGame().getVariables().get(\"pivotY\").setNumber(seg.getY())",
@@ -3334,7 +4069,10 @@
         "    }",
         "}",
         "",
-        "if(keyManager.isKeyPressed(S_KEY) && !runtimeScene.getVariables().get(\"isPaused\").getAsBoolean() && !runtimeScene.getGame().getVariables().get(\"isGameOver\").getAsBoolean()){",
+        "if(keyManager.isKeyPressed(S_KEY) && !runtimeScene.getVariables().get(\"isPaused\").getAsBoolean() && !runtimeScene.getGame().getVariables().get(\"isGameOver\").getAsBoolean() && ",
+        "runtimeScene.getTimeManager().getTimer(\"PruneCooldown\").getTime() > 5000 //5s cooldown for prune",
+        "){  ",
+        "    runtimeScene.getTimeManager().getTimer(\"PruneCooldown\").reset()",
         "    runtimeScene.getSoundManager().playSound(\"Sni_Snip.mp3\", false, 100, 1)",
         "",
         "    //if press s key, use cursor to delete old/already burrowed segments",
@@ -3361,6 +4099,107 @@
       "parameterObjects": "VineSegment",
       "useStrict": true,
       "eventsSheetExpanded": true
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "PruneCDText",
+            "=",
+            "\"5s\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "PruneCDText",
+            "=",
+            "\"5s READY!\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "BurrowCDText",
+            "=",
+            "\"5s\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "BurrowCDText",
+            "=",
+            "\"5s READY!\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"GlobalBurrowCooldown\"",
+            ">=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "globalBurrowCooldown",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "BurrowCDText",
+            "=",
+            "ToString(round(clamp(GlobalVariable(globalBurrowCooldown),0,5))) +\"s\" "
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"GlobalBurrowCooldown\""
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -3633,6 +4472,16 @@
         },
         {
           "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "PruneCDText",
+            "=",
+            "ToString(round(clamp(TimerElapsedTime(\"PruneCooldown\"),0,5))) +\"s\" "
+          ]
+        },
+        {
+          "type": {
             "value": "ResetTimer"
           },
           "parameters": [
@@ -3702,6 +4551,16 @@
             "PivotSegment",
             "\"TurnTimer\""
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "polarForceMagnitude",
+            "=",
+            "180"
+          ]
         }
       ]
     },
@@ -3733,6 +4592,16 @@
           },
           "parameters": [
             "VineSegment",
+            "polarForceMagnitude",
+            "=",
+            "90"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
             "polarForceMagnitude",
             "=",
             "90"
@@ -3772,6 +4641,16 @@
             "=",
             "150"
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "angularVelocityMagnitude",
+            "=",
+            "150"
+          ]
         }
       ]
     },
@@ -3804,6 +4683,16 @@
           "parameters": [
             "VineSegment",
             "angularVelocity",
+            "=",
+            "100"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "angularVelocityMagnitude",
             "=",
             "100"
           ]
@@ -3981,6 +4870,16 @@
         },
         {
           "type": {
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "globalBurrowCooldown",
+            ">=",
+            "5"
+          ]
+        },
+        {
+          "type": {
             "value": "BuiltinCommonInstructions::Once"
           },
           "parameters": []
@@ -4012,6 +4911,16 @@
           "parameters": [
             "",
             "\"Underground\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "globalBurrowCooldown",
+            "=",
+            "0"
           ]
         }
       ]
@@ -4359,6 +5268,210 @@
           "parameters": [
             "",
             "\"Start Menu\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "VineSegment",
+            "polarForceMagnitude",
+            "=",
+            "180"
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "isGameOver",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "isPaused",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ChangeAnimation"
+          },
+          "parameters": [
+            "SpeedUpIcon",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeAnimation"
+          },
+          "parameters": [
+            "SpeedUpIcon",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "VineSegment",
+            "angularVelocity",
+            "=",
+            "150"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ChangeAnimation"
+          },
+          "parameters": [
+            "TurnIcon",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeAnimation"
+          },
+          "parameters": [
+            "TurnIcon",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "hasStoppedColliding",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "isGameOver",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "isPaused",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ChangeAnimation"
+          },
+          "parameters": [
+            "TangledIcon",
+            "=",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "hasStoppedColliding",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "isPaused",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "isGameOver",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ChangeAnimation"
+          },
+          "parameters": [
+            "TangledIcon",
+            "=",
+            "0"
           ]
         }
       ]
